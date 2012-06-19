@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_a4f7c4e992f9b63a13ab00a6dfdf9f7d" kind="dir">
+    <compoundname>/home/sakulkar/workspace/gr-ofdm/include/</compoundname>
+    <innerfile refid="ofdm__api_8h">ofdm_api.h</innerfile>
+    <innerfile refid="ofdm__cube__ff_8h">ofdm_cube_ff.h</innerfile>
+    <innerfile refid="ofdm__power4__ff_8h">ofdm_power4_ff.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sakulkar/workspace/gr-ofdm/include/"/>
+  </compounddef>
+</doxygen>

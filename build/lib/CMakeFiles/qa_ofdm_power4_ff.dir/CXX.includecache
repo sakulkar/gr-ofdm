@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sakulkar/workspace/gr-ofdm/lib/qa_ofdm_power4_ff.cc
+boost/test/unit_test.hpp
+-
+
