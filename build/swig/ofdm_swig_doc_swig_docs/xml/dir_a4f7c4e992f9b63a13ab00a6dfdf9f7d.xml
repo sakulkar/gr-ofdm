@@ -4,10 +4,7 @@
     <compoundname>/home/sakulkar/workspace/gr-ofdm/include/</compoundname>
     <innerfile refid="ofdm__api_8h">ofdm_api.h</innerfile>
     <innerfile refid="ofdm__cube__ff_8h">ofdm_cube_ff.h</innerfile>
-<<<<<<< HEAD
-=======
     <innerfile refid="ofdm__new__ff_8h">ofdm_new_ff.h</innerfile>
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
     <innerfile refid="ofdm__power4__ff_8h">ofdm_power4_ff.h</innerfile>
     <briefdescription>
     </briefdescription>

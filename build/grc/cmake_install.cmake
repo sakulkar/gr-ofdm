@@ -36,10 +36,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
     "/home/sakulkar/workspace/gr-ofdm/grc/ofdm_cube_ff.xml"
     "/home/sakulkar/workspace/gr-ofdm/grc/ofdm_power4_ff.xml"
-<<<<<<< HEAD
-=======
     "/home/sakulkar/workspace/gr-ofdm/grc/ofdm_new_ff.xml"
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

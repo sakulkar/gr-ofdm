@@ -36,17 +36,10 @@
  * Create a new instance of howto_square_ff and return
  * a boost shared_ptr.  This is effectively the public constructor.
  */
-<<<<<<< HEAD
-    ofdm_cube_ff_sptr
-ofdm_make_cube_ff ()
-{
-    return gnuradio::get_initial_sptr(new ofdm_cube_ff ());
-=======
 ofdm_cube_ff_sptr
 ofdm_make_cube_ff ()
 {
   return gnuradio::get_initial_sptr(new ofdm_cube_ff ());
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 }
 
 /*
@@ -67,19 +60,11 @@ static const int MAX_OUT = 1;	// maximum number of output streams
  * The private constructor
  */
 ofdm_cube_ff::ofdm_cube_ff ()
-<<<<<<< HEAD
-    : gr_block ("cube_ff",
-            gr_make_io_signature (MIN_IN, MAX_IN, sizeof (float)),
-            gr_make_io_signature (MIN_OUT, MAX_OUT, sizeof (float)))
-{
-    // nothing else required in this example
-=======
   : gr_block ("cube_ff",
 	      gr_make_io_signature (MIN_IN, MAX_IN, sizeof (float)),
 	      gr_make_io_signature (MIN_OUT, MAX_OUT, sizeof (float)))
 {
   // nothing else required in this example
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 }
 
 /*
@@ -87,31 +72,6 @@ ofdm_cube_ff::ofdm_cube_ff ()
  */
 ofdm_cube_ff::~ofdm_cube_ff ()
 {
-<<<<<<< HEAD
-    // nothing else required in this example
-}
-
-    int
-ofdm_cube_ff::general_work (int noutput_items,
-        gr_vector_int &ninput_items,
-        gr_vector_const_void_star &input_items,
-        gr_vector_void_star &output_items)
-{
-    const float *in = (const float *) input_items[0];
-    float *out = (float *) output_items[0];
-
-    for (int i = 0; i < noutput_items; i++){
-        out[i] = in[i] * in[i] * in[i];
-    }
-
-    // Tell runtime system how many input items we consumed on
-    // each input stream.
-
-    consume_each (noutput_items);
-
-    // Tell runtime system how many output items we produced.
-    return noutput_items;
-=======
   // nothing else required in this example
 }
 
@@ -135,5 +95,4 @@ ofdm_cube_ff::general_work (int noutput_items,
 
   // Tell runtime system how many output items we produced.
   return noutput_items;
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 }

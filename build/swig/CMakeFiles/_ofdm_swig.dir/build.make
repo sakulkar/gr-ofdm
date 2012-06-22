@@ -89,31 +89,19 @@ swig/ofdm_swig.tag: swig/_ofdm_swig_swig_tag
 	cd /home/sakulkar/workspace/gr-ofdm/build/swig && ./_ofdm_swig_swig_tag
 	cd /home/sakulkar/workspace/gr-ofdm/build/swig && /usr/bin/cmake -E touch /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_swig.tag
 
-<<<<<<< HEAD
-swig/ofdm_swig_doc.i: ../swig/../include/ofdm_power4_ff.h
-swig/ofdm_swig_doc.i: ../swig/../include/ofdm_api.h
-swig/ofdm_swig_doc.i: ../swig/../include/ofdm_cube_ff.h
-=======
 swig/ofdm_swig_doc.i: ../swig/../include/ofdm_new_ff.h
 swig/ofdm_swig_doc.i: ../swig/../include/ofdm_power4_ff.h
 swig/ofdm_swig_doc.i: ../swig/../include/ofdm_cube_ff.h
 swig/ofdm_swig_doc.i: ../swig/../include/ofdm_api.h
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 swig/ofdm_swig_doc.i: swig/ofdm_swig_doc_swig_docs/xml/index.xml
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ofdm_swig_doc.i"
 	cd /home/sakulkar/workspace/gr-ofdm/docs/doxygen && /usr/bin/python -B /home/sakulkar/workspace/gr-ofdm/docs/doxygen/swig_doc.py /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_swig_doc_swig_docs/xml /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_swig_doc.i
 
-<<<<<<< HEAD
-swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_power4_ff.h
-swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_api.h
-swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_cube_ff.h
-=======
 swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_new_ff.h
 swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_power4_ff.h
 swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_cube_ff.h
 swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_api.h
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 swig/ofdm_swig_doc_swig_docs/xml/index.xml: swig/_ofdm_swig_doc_tag
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating doxygen xml for ofdm_swig_doc docs"

@@ -3,10 +3,7 @@
 
 swig/CMakeFiles/_ofdm_swig.dir/ofdm_swigPYTHON_wrap.cxx.o: ../include/ofdm_api.h
 swig/CMakeFiles/_ofdm_swig.dir/ofdm_swigPYTHON_wrap.cxx.o: ../include/ofdm_cube_ff.h
-<<<<<<< HEAD
-=======
 swig/CMakeFiles/_ofdm_swig.dir/ofdm_swigPYTHON_wrap.cxx.o: ../include/ofdm_new_ff.h
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 swig/CMakeFiles/_ofdm_swig.dir/ofdm_swigPYTHON_wrap.cxx.o: ../include/ofdm_power4_ff.h
 swig/CMakeFiles/_ofdm_swig.dir/ofdm_swigPYTHON_wrap.cxx.o: swig/ofdm_swigPYTHON_wrap.cxx
 swig/CMakeFiles/_ofdm_swig.dir/ofdm_swigPYTHON_wrap.cxx.o: /usr/include/python2.7/Python.h

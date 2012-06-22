@@ -23,9 +23,6 @@ GR_PYTHON_INSTALL(
     PROGRAMS
     ofdm_cube.py
     ofdm_power4.py
-<<<<<<< HEAD
-=======
     ofdm_new.py
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
     DESTINATION bin
 )

@@ -92,12 +92,6 @@ lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o.provides: lib/CMakeFiles/gn
 
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o.provides.build: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o
 
-<<<<<<< HEAD
-# Object files for target gnuradio-ofdm
-gnuradio__ofdm_OBJECTS = \
-"CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o" \
-"CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o"
-=======
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o: lib/CMakeFiles/gnuradio-ofdm.dir/flags.make
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o: ../lib/ofdm_new_ff.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles $(CMAKE_PROGRESS_3)
@@ -126,17 +120,13 @@ gnuradio__ofdm_OBJECTS = \
 "CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o" \
 "CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o" \
 "CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o"
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 # External object files for target gnuradio-ofdm
 gnuradio__ofdm_EXTERNAL_OBJECTS =
 
 lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o
 lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o
-<<<<<<< HEAD
-=======
 lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 lib/libgnuradio-ofdm.so: /usr/local/lib/libgruel.so
 lib/libgnuradio-ofdm.so: /usr/local/lib/libgnuradio-core.so
 lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/build.make
@@ -150,10 +140,7 @@ lib/CMakeFiles/gnuradio-ofdm.dir/build: lib/libgnuradio-ofdm.so
 
 lib/CMakeFiles/gnuradio-ofdm.dir/requires: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o.requires
 lib/CMakeFiles/gnuradio-ofdm.dir/requires: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o.requires
-<<<<<<< HEAD
-=======
 lib/CMakeFiles/gnuradio-ofdm.dir/requires: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o.requires
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 .PHONY : lib/CMakeFiles/gnuradio-ofdm.dir/requires
 
 lib/CMakeFiles/gnuradio-ofdm.dir/clean:

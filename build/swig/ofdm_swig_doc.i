@@ -34,8 +34,6 @@ To avoid accidental use of raw pointers, howto_square_ff's constructor is privat
 
 Params: (NONE)"
 
-<<<<<<< HEAD
-=======
 %feature("docstring") ofdm_new_ff "square a stream of floats.
 
 Return a shared_ptr to a new instance of howto_square_ff.
@@ -62,7 +60,6 @@ To avoid accidental use of raw pointers, howto_square_ff's constructor is privat
 
 Params: (NONE)"
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 %feature("docstring") ofdm_power4_ff "square2 a stream of floats.
 
 This uses the preferred technique: subclassing gr_sync_block.
@@ -169,20 +166,12 @@ Params: (NONE)"
 
 %feature("docstring") std::string::const_reverse_iterator "STL iterator class."
 
-<<<<<<< HEAD
-%feature("docstring") std::list::const_reverse_iterator "STL iterator class."
-
-=======
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 %feature("docstring") std::wstring::const_reverse_iterator "STL iterator class."
 
 %feature("docstring") std::deque::const_reverse_iterator "STL iterator class."
 
-<<<<<<< HEAD
-=======
 %feature("docstring") std::list::const_reverse_iterator "STL iterator class."
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 %feature("docstring") std::deque "STL class."
 
 %feature("docstring") std::domain_error "STL class."
@@ -205,11 +194,7 @@ Params: (NONE)"
 
 %feature("docstring") std::istringstream "STL class."
 
-<<<<<<< HEAD
-%feature("docstring") std::map::iterator "STL iterator class."
-=======
 %feature("docstring") std::list::iterator "STL iterator class."
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 %feature("docstring") std::multimap::iterator "STL iterator class."
 
@@ -227,11 +212,7 @@ Params: (NONE)"
 
 %feature("docstring") std::deque::iterator "STL iterator class."
 
-<<<<<<< HEAD
-%feature("docstring") std::list::iterator "STL iterator class."
-=======
 %feature("docstring") std::map::iterator "STL iterator class."
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 %feature("docstring") std::length_error "STL class."
 
@@ -261,14 +242,6 @@ Params: (NONE)"
 
 %feature("docstring") std::range_error "STL class."
 
-<<<<<<< HEAD
-%feature("docstring") std::map::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::list::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::wstring::reverse_iterator "STL iterator class."
-
-=======
 %feature("docstring") std::vector::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::multiset::reverse_iterator "STL iterator class."
@@ -277,7 +250,6 @@ Params: (NONE)"
 
 %feature("docstring") std::list::reverse_iterator "STL iterator class."
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 %feature("docstring") std::string::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::basic_string::reverse_iterator "STL iterator class."
@@ -286,13 +258,7 @@ Params: (NONE)"
 
 %feature("docstring") std::multimap::reverse_iterator "STL iterator class."
 
-<<<<<<< HEAD
-%feature("docstring") std::vector::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::multiset::reverse_iterator "STL iterator class."
-=======
 %feature("docstring") std::map::reverse_iterator "STL iterator class."
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 %feature("docstring") std::deque::reverse_iterator "STL iterator class."
 

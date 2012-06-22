@@ -16,15 +16,12 @@ ofdm_api.h
 gr_block.h
 -
 
-<<<<<<< HEAD
-=======
 ../include/ofdm_new_ff.h
 ofdm_api.h
 -
 gr_block.h
 -
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 ../include/ofdm_power4_ff.h
 ofdm_api.h
 -
@@ -39,8 +36,6 @@ ofdm_cube_ff.h
 gr_io_signature.h
 -
 
-<<<<<<< HEAD
-=======
 /home/sakulkar/workspace/gr-ofdm/lib/ofdm_new_ff.cc
 config.h
 /home/sakulkar/workspace/gr-ofdm/lib/config.h
@@ -49,7 +44,6 @@ ofdm_new_ff.h
 gr_io_signature.h
 -
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 /home/sakulkar/workspace/gr-ofdm/lib/ofdm_power4_ff.cc
 config.h
 /home/sakulkar/workspace/gr-ofdm/lib/config.h

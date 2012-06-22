@@ -5,26 +5,6 @@
     <includes refid="ofdm__api_8h" local="no">ofdm_api.h</includes>
     <includes local="no">gr_sync_block.h</includes>
     <incdepgraph>
-<<<<<<< HEAD
-      <node id="12">
-        <label>gruel/attributes.h</label>
-      </node>
-      <node id="13">
-        <label>gr_sync_block.h</label>
-      </node>
-      <node id="10">
-        <label>/home/sakulkar/workspace/gr-ofdm/include/ofdm_power4_ff.h</label>
-        <link refid="ofdm_power4_ff.h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>ofdm_api.h</label>
-        <link refid="ofdm__api_8h"/>
-        <childnode refid="12" relation="include">
-=======
       <node id="18">
         <label>gruel/attributes.h</label>
       </node>
@@ -43,7 +23,6 @@
         <label>ofdm_api.h</label>
         <link refid="ofdm__api_8h"/>
         <childnode refid="18" relation="include">
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
         </childnode>
       </node>
     </incdepgraph>

@@ -2956,34 +2956,6 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_boost__shared_ptrT_gr_single_threaded_scheduler_t swig_types[11]
 #define SWIGTYPE_p_boost__shared_ptrT_gr_top_block_t swig_types[12]
 #define SWIGTYPE_p_boost__shared_ptrT_ofdm_cube_ff_t swig_types[13]
-<<<<<<< HEAD
-#define SWIGTYPE_p_boost__shared_ptrT_ofdm_power4_ff_t swig_types[14]
-#define SWIGTYPE_p_char swig_types[15]
-#define SWIGTYPE_p_difference_type swig_types[16]
-#define SWIGTYPE_p_gr_basic_block swig_types[17]
-#define SWIGTYPE_p_gr_block swig_types[18]
-#define SWIGTYPE_p_gr_hier_block2 swig_types[19]
-#define SWIGTYPE_p_gr_sync_block swig_types[20]
-#define SWIGTYPE_p_gr_sync_decimator swig_types[21]
-#define SWIGTYPE_p_gr_sync_interpolator swig_types[22]
-#define SWIGTYPE_p_gr_top_block swig_types[23]
-#define SWIGTYPE_p_gr_vector_const_void_star swig_types[24]
-#define SWIGTYPE_p_gr_vector_int swig_types[25]
-#define SWIGTYPE_p_gr_vector_void_star swig_types[26]
-#define SWIGTYPE_p_gruel__rt_status_t swig_types[27]
-#define SWIGTYPE_p_long_long swig_types[28]
-#define SWIGTYPE_p_ofdm_cube_ff swig_types[29]
-#define SWIGTYPE_p_ofdm_power4_ff swig_types[30]
-#define SWIGTYPE_p_size_type swig_types[31]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[32]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[33]
-#define SWIGTYPE_p_std__invalid_argument swig_types[34]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[35]
-#define SWIGTYPE_p_unsigned_long_long swig_types[36]
-#define SWIGTYPE_p_value_type swig_types[37]
-static swig_type_info *swig_types[39];
-static swig_module_info swig_module = {swig_types, 38, 0, 0, 0, 0};
-=======
 #define SWIGTYPE_p_boost__shared_ptrT_ofdm_new_ff_t swig_types[14]
 #define SWIGTYPE_p_boost__shared_ptrT_ofdm_power4_ff_t swig_types[15]
 #define SWIGTYPE_p_char swig_types[16]
@@ -3012,7 +2984,6 @@ static swig_module_info swig_module = {swig_types, 38, 0, 0, 0, 0};
 #define SWIGTYPE_p_value_type swig_types[39]
 static swig_type_info *swig_types[41];
 static swig_module_info swig_module = {swig_types, 40, 0, 0, 0, 0};
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4400,10 +4371,7 @@ namespace swig
 
 #include "ofdm_cube_ff.h"
 #include "ofdm_power4_ff.h"
-<<<<<<< HEAD
-=======
 #include "ofdm_new_ff.h"
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 
 #include <limits.h>
@@ -7090,8 +7058,6 @@ fail:
 }
 
 
-<<<<<<< HEAD
-=======
 SWIGINTERN PyObject *_wrap_new_ofdm_new_ff_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ofdm_new_ff > *result = 0 ;
@@ -7915,7 +7881,6 @@ fail:
 }
 
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_VARARGS, (char *)"delete_SwigPyIterator(SwigPyIterator self)"},
@@ -8020,8 +7985,6 @@ static PyMethodDef SwigMethods[] = {
 		"\n"
 		"Params: (NONE)\n"
 		""},
-<<<<<<< HEAD
-=======
 	 { (char *)"new_ofdm_new_ff_sptr", _wrap_new_ofdm_new_ff_sptr, METH_VARARGS, (char *)"\n"
 		"ofdm_new_ff_sptr()\n"
 		"new_ofdm_new_ff_sptr( p) -> ofdm_new_ff_sptr\n"
@@ -8062,7 +8025,6 @@ static PyMethodDef SwigMethods[] = {
 		"\n"
 		"Params: (NONE)\n"
 		""},
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -8084,12 +8046,9 @@ static void *_p_gr_hier_block2To_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(n
 static void *_p_gr_sync_blockTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_basic_block *) (gr_block *) ((gr_sync_block *) x));
 }
-<<<<<<< HEAD
-=======
 static void *_p_ofdm_new_ffTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_basic_block *) (gr_block *) ((ofdm_new_ff *) x));
 }
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 static void *_p_gr_blockTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_basic_block *)  ((gr_block *) x));
 }
@@ -8120,12 +8079,9 @@ static void *_p_gr_sync_decimatorTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newm
 static void *_p_gr_sync_blockTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *)  ((gr_sync_block *) x));
 }
-<<<<<<< HEAD
-=======
 static void *_p_ofdm_new_ffTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *)  ((ofdm_new_ff *) x));
 }
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 static void *_p_gr_sync_interpolatorTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *) (gr_sync_block *) ((gr_sync_interpolator *) x));
 }
@@ -8143,10 +8099,7 @@ static swig_type_info _swigt__p_boost__shared_ptrT_gr_msg_queue_t = {"_p_boost__
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_single_threaded_scheduler_t = {"_p_boost__shared_ptrT_gr_single_threaded_scheduler_t", "boost::shared_ptr< gr_single_threaded_scheduler > *|gr_single_threaded_scheduler_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_top_block_t = {"_p_boost__shared_ptrT_gr_top_block_t", "boost::shared_ptr< gr_top_block > *|gr_top_block_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_ofdm_cube_ff_t = {"_p_boost__shared_ptrT_ofdm_cube_ff_t", "boost::shared_ptr< ofdm_cube_ff > *|ofdm_cube_ff_sptr *", 0, 0, (void*)0, 0};
-<<<<<<< HEAD
-=======
 static swig_type_info _swigt__p_boost__shared_ptrT_ofdm_new_ff_t = {"_p_boost__shared_ptrT_ofdm_new_ff_t", "boost::shared_ptr< ofdm_new_ff > *|ofdm_new_ff_sptr *", 0, 0, (void*)0, 0};
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 static swig_type_info _swigt__p_boost__shared_ptrT_ofdm_power4_ff_t = {"_p_boost__shared_ptrT_ofdm_power4_ff_t", "boost::shared_ptr< ofdm_power4_ff > *|ofdm_power4_ff_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
@@ -8163,10 +8116,7 @@ static swig_type_info _swigt__p_gr_vector_void_star = {"_p_gr_vector_void_star",
 static swig_type_info _swigt__p_gruel__rt_status_t = {"_p_gruel__rt_status_t", "enum gruel::rt_status_t *|gruel::rt_status_t *|gr_rt_status_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long_long = {"_p_long_long", "int64_t *|long long *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ofdm_cube_ff = {"_p_ofdm_cube_ff", "ofdm_cube_ff *", 0, 0, (void*)0, 0};
-<<<<<<< HEAD
-=======
 static swig_type_info _swigt__p_ofdm_new_ff = {"_p_ofdm_new_ff", "ofdm_new_ff *", 0, 0, (void*)0, 0};
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 static swig_type_info _swigt__p_ofdm_power4_ff = {"_p_ofdm_power4_ff", "ofdm_power4_ff *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__complexT_double_t = {"_p_std__complexT_double_t", "gr_complexd *|std::complex< double > *", 0, 0, (void*)0, 0};
@@ -8191,10 +8141,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_boost__shared_ptrT_gr_single_threaded_scheduler_t,
   &_swigt__p_boost__shared_ptrT_gr_top_block_t,
   &_swigt__p_boost__shared_ptrT_ofdm_cube_ff_t,
-<<<<<<< HEAD
-=======
   &_swigt__p_boost__shared_ptrT_ofdm_new_ff_t,
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
   &_swigt__p_boost__shared_ptrT_ofdm_power4_ff_t,
   &_swigt__p_char,
   &_swigt__p_difference_type,
@@ -8211,10 +8158,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_gruel__rt_status_t,
   &_swigt__p_long_long,
   &_swigt__p_ofdm_cube_ff,
-<<<<<<< HEAD
-=======
   &_swigt__p_ofdm_new_ff,
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
   &_swigt__p_ofdm_power4_ff,
   &_swigt__p_size_type,
   &_swigt__p_std__complexT_double_t,
@@ -8239,10 +8183,7 @@ static swig_cast_info _swigc__p_boost__shared_ptrT_gr_msg_queue_t[] = {  {&_swig
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_single_threaded_scheduler_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_single_threaded_scheduler_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_top_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_top_block_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_ofdm_cube_ff_t[] = {  {&_swigt__p_boost__shared_ptrT_ofdm_cube_ff_t, 0, 0, 0},{0, 0, 0, 0}};
-<<<<<<< HEAD
-=======
 static swig_cast_info _swigc__p_boost__shared_ptrT_ofdm_new_ff_t[] = {  {&_swigt__p_boost__shared_ptrT_ofdm_new_ff_t, 0, 0, 0},{0, 0, 0, 0}};
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 static swig_cast_info _swigc__p_boost__shared_ptrT_ofdm_power4_ff_t[] = {  {&_swigt__p_boost__shared_ptrT_ofdm_power4_ff_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
@@ -8250,13 +8191,8 @@ static swig_cast_info _swigc__p_gr_sync_decimator[] = {{&_swigt__p_gr_sync_decim
 static swig_cast_info _swigc__p_gr_hier_block2[] = {{&_swigt__p_gr_hier_block2, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_sync_interpolator[] = {{&_swigt__p_gr_sync_interpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_top_block[] = {{&_swigt__p_gr_top_block, 0, 0, 0},{0, 0, 0, 0}};
-<<<<<<< HEAD
-static swig_cast_info _swigc__p_gr_basic_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_ofdm_cube_ff, _p_ofdm_cube_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_basic_block, 0, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_top_block, _p_gr_top_blockTo_p_gr_basic_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_block, 0, 0},  {&_swigt__p_ofdm_cube_ff, _p_ofdm_cube_ffTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_block, 0, 0},  {&_swigt__p_gr_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_block, 0, 0},{0, 0, 0, 0}};
-=======
 static swig_cast_info _swigc__p_gr_basic_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_ofdm_cube_ff, _p_ofdm_cube_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_basic_block, 0, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_ofdm_new_ff, _p_ofdm_new_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_top_block, _p_gr_top_blockTo_p_gr_basic_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_block, 0, 0},  {&_swigt__p_ofdm_cube_ff, _p_ofdm_cube_ffTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_block, 0, 0},  {&_swigt__p_ofdm_new_ff, _p_ofdm_new_ffTo_p_gr_block, 0, 0},  {&_swigt__p_gr_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_block, 0, 0},{0, 0, 0, 0}};
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 static swig_cast_info _swigc__p_gr_sync_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_sync_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_vector_const_void_star[] = {  {&_swigt__p_gr_vector_const_void_star, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_vector_int[] = {  {&_swigt__p_gr_vector_int, 0, 0, 0},{0, 0, 0, 0}};
@@ -8264,10 +8200,7 @@ static swig_cast_info _swigc__p_gr_vector_void_star[] = {  {&_swigt__p_gr_vector
 static swig_cast_info _swigc__p_gruel__rt_status_t[] = {  {&_swigt__p_gruel__rt_status_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ofdm_cube_ff[] = {  {&_swigt__p_ofdm_cube_ff, 0, 0, 0},{0, 0, 0, 0}};
-<<<<<<< HEAD
-=======
 static swig_cast_info _swigc__p_ofdm_new_ff[] = {  {&_swigt__p_ofdm_new_ff, 0, 0, 0},{0, 0, 0, 0}};
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 static swig_cast_info _swigc__p_ofdm_power4_ff[] = {  {&_swigt__p_ofdm_power4_ff, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__complexT_double_t[] = {  {&_swigt__p_std__complexT_double_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -8292,10 +8225,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_boost__shared_ptrT_gr_single_threaded_scheduler_t,
   _swigc__p_boost__shared_ptrT_gr_top_block_t,
   _swigc__p_boost__shared_ptrT_ofdm_cube_ff_t,
-<<<<<<< HEAD
-=======
   _swigc__p_boost__shared_ptrT_ofdm_new_ff_t,
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
   _swigc__p_boost__shared_ptrT_ofdm_power4_ff_t,
   _swigc__p_char,
   _swigc__p_difference_type,
@@ -8312,10 +8242,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_gruel__rt_status_t,
   _swigc__p_long_long,
   _swigc__p_ofdm_cube_ff,
-<<<<<<< HEAD
-=======
   _swigc__p_ofdm_new_ff,
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
   _swigc__p_ofdm_power4_ff,
   _swigc__p_size_type,
   _swigc__p_std__complexT_double_t,

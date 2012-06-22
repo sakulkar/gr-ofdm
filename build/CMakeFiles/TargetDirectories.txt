@@ -2,17 +2,10 @@
 /home/sakulkar/workspace/gr-ofdm/build/swig/CMakeFiles/_ofdm_swig_doc_tag.dir
 /home/sakulkar/workspace/gr-ofdm/build/swig/CMakeFiles/_ofdm_swig_swig_tag.dir
 /home/sakulkar/workspace/gr-ofdm/build/lib/CMakeFiles/gnuradio-ofdm.dir
-<<<<<<< HEAD
-/home/sakulkar/workspace/gr-ofdm/build/apps/CMakeFiles/pygen_apps_8f2fd.dir
-/home/sakulkar/workspace/gr-ofdm/build/python/CMakeFiles/pygen_python_1f409.dir
-/home/sakulkar/workspace/gr-ofdm/build/swig/CMakeFiles/pygen_swig_dbea6.dir
-/home/sakulkar/workspace/gr-ofdm/build/lib/CMakeFiles/qa_ofdm_cube_ff.dir
-=======
 /home/sakulkar/workspace/gr-ofdm/build/apps/CMakeFiles/pygen_apps_55bda.dir
 /home/sakulkar/workspace/gr-ofdm/build/python/CMakeFiles/pygen_python_1f409.dir
 /home/sakulkar/workspace/gr-ofdm/build/swig/CMakeFiles/pygen_swig_dbea6.dir
 /home/sakulkar/workspace/gr-ofdm/build/lib/CMakeFiles/qa_ofdm_cube_ff.dir
 /home/sakulkar/workspace/gr-ofdm/build/lib/CMakeFiles/qa_ofdm_new_ff.dir
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 /home/sakulkar/workspace/gr-ofdm/build/lib/CMakeFiles/qa_ofdm_power4_ff.dir
 /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles/uninstall.dir

@@ -5,10 +5,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/sakulkar/workspace/gr-ofdm/lib/ofdm_cube_ff.cc" "/home/sakulkar/workspace/gr-ofdm/build/lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o"
-<<<<<<< HEAD
-=======
   "/home/sakulkar/workspace/gr-ofdm/lib/ofdm_new_ff.cc" "/home/sakulkar/workspace/gr-ofdm/build/lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o"
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
   "/home/sakulkar/workspace/gr-ofdm/lib/ofdm_power4_ff.cc" "/home/sakulkar/workspace/gr-ofdm/build/lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")

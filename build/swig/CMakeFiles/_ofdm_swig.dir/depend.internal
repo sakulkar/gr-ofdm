@@ -4,10 +4,7 @@
 swig/CMakeFiles/_ofdm_swig.dir/ofdm_swigPYTHON_wrap.cxx.o
  ../include/ofdm_api.h
  ../include/ofdm_cube_ff.h
-<<<<<<< HEAD
-=======
  ../include/ofdm_new_ff.h
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
  ../include/ofdm_power4_ff.h
  /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_swigPYTHON_wrap.cxx
  /usr/include/python2.7/Python.h

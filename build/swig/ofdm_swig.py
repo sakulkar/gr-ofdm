@@ -369,8 +369,6 @@ def power4_ff():
     Params: (NONE)
     """
   return _ofdm_swig.power4_ff()
-<<<<<<< HEAD
-=======
 class ofdm_new_ff_sptr(object):
     """Proxy of C++ boost::shared_ptr<(ofdm_new_ff)> class"""
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
@@ -477,6 +475,5 @@ def new_ff():
     Params: (NONE)
     """
   return _ofdm_swig.new_ff()
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 

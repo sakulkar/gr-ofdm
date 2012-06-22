@@ -20,8 +20,6 @@ lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o: /usr/local/include/gruel/msg
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o: /usr/local/include/gruel/pmt.h
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o: /usr/local/include/gruel/pmt_sugar.h
 
-<<<<<<< HEAD
-=======
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o: ../include/ofdm_api.h
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o: ../include/ofdm_new_ff.h
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o: ../lib/ofdm_new_ff.cc
@@ -41,7 +39,6 @@ lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o: /usr/local/include/gruel/msg_
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o: /usr/local/include/gruel/pmt.h
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o: /usr/local/include/gruel/pmt_sugar.h
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o: ../include/ofdm_api.h
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o: ../include/ofdm_power4_ff.h
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o: ../lib/ofdm_power4_ff.cc

@@ -12,40 +12,22 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-<<<<<<< HEAD
-      <node id="543">
-        <label>std::basic_string&lt; char &gt;</label>
-      </node>
-      <node id="542">
-        <label>std::string</label>
-        <childnode refid="543" relation="public-inheritance">
-=======
       <node id="545">
         <label>std::basic_string&lt; char &gt;</label>
       </node>
       <node id="544">
         <label>std::string</label>
         <childnode refid="545" relation="public-inheritance">
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-<<<<<<< HEAD
-      <node id="545">
-        <label>std::basic_string&lt; char &gt;</label>
-      </node>
-      <node id="544">
-        <label>std::string</label>
-        <childnode refid="545" relation="public-inheritance">
-=======
       <node id="547">
         <label>std::basic_string&lt; char &gt;</label>
       </node>
       <node id="546">
         <label>std::string</label>
         <childnode refid="547" relation="public-inheritance">
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
         </childnode>
       </node>
     </collaborationgraph>

@@ -175,8 +175,6 @@ qa_ofdm_cube_ff/fast:
 .PHONY : qa_ofdm_cube_ff/fast
 
 # Convenience name for target.
-<<<<<<< HEAD
-=======
 lib/CMakeFiles/qa_ofdm_new_ff.dir/rule:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/qa_ofdm_new_ff.dir/rule
 .PHONY : lib/CMakeFiles/qa_ofdm_new_ff.dir/rule
@@ -191,7 +189,6 @@ qa_ofdm_new_ff/fast:
 .PHONY : qa_ofdm_new_ff/fast
 
 # Convenience name for target.
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 lib/CMakeFiles/qa_ofdm_power4_ff.dir/rule:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/qa_ofdm_power4_ff.dir/rule
 .PHONY : lib/CMakeFiles/qa_ofdm_power4_ff.dir/rule
@@ -229,8 +226,6 @@ ofdm_cube_ff.cc.s:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.s
 .PHONY : ofdm_cube_ff.cc.s
 
-<<<<<<< HEAD
-=======
 ofdm_new_ff.o: ofdm_new_ff.cc.o
 .PHONY : ofdm_new_ff.o
 
@@ -255,7 +250,6 @@ ofdm_new_ff.cc.s:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.s
 .PHONY : ofdm_new_ff.cc.s
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 ofdm_power4_ff.o: ofdm_power4_ff.cc.o
 .PHONY : ofdm_power4_ff.o
 
@@ -304,8 +298,6 @@ qa_ofdm_cube_ff.cc.s:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/qa_ofdm_cube_ff.dir/build.make lib/CMakeFiles/qa_ofdm_cube_ff.dir/qa_ofdm_cube_ff.cc.s
 .PHONY : qa_ofdm_cube_ff.cc.s
 
-<<<<<<< HEAD
-=======
 qa_ofdm_new_ff.o: qa_ofdm_new_ff.cc.o
 .PHONY : qa_ofdm_new_ff.o
 
@@ -330,7 +322,6 @@ qa_ofdm_new_ff.cc.s:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/qa_ofdm_new_ff.cc.s
 .PHONY : qa_ofdm_new_ff.cc.s
 
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 qa_ofdm_power4_ff.o: qa_ofdm_power4_ff.cc.o
 .PHONY : qa_ofdm_power4_ff.o
 
@@ -368,34 +359,25 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... qa_ofdm_cube_ff"
-<<<<<<< HEAD
-=======
 	@echo "... qa_ofdm_new_ff"
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "... qa_ofdm_power4_ff"
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ofdm_cube_ff.o"
 	@echo "... ofdm_cube_ff.i"
 	@echo "... ofdm_cube_ff.s"
-<<<<<<< HEAD
-=======
 	@echo "... ofdm_new_ff.o"
 	@echo "... ofdm_new_ff.i"
 	@echo "... ofdm_new_ff.s"
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "... ofdm_power4_ff.o"
 	@echo "... ofdm_power4_ff.i"
 	@echo "... ofdm_power4_ff.s"
 	@echo "... qa_ofdm_cube_ff.o"
 	@echo "... qa_ofdm_cube_ff.i"
 	@echo "... qa_ofdm_cube_ff.s"
-<<<<<<< HEAD
-=======
 	@echo "... qa_ofdm_new_ff.o"
 	@echo "... qa_ofdm_new_ff.i"
 	@echo "... qa_ofdm_new_ff.s"
->>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "... qa_ofdm_power4_ff.o"
 	@echo "... qa_ofdm_power4_ff.i"
 	@echo "... qa_ofdm_power4_ff.s"
