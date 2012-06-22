@@ -20,5 +20,9 @@
 install(FILES
     ofdm_cube_ff.xml
     ofdm_power4_ff.xml
+<<<<<<< HEAD
+=======
+    ofdm_new_ff.xml
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
     DESTINATION share/gnuradio/grc/blocks
 )

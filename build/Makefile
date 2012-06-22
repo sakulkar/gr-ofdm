@@ -186,6 +186,22 @@ qa_ofdm_cube_ff/fast:
 .PHONY : qa_ofdm_cube_ff/fast
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named qa_ofdm_new_ff
+
+# Build rule for target.
+qa_ofdm_new_ff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 qa_ofdm_new_ff
+.PHONY : qa_ofdm_new_ff
+
+# fast build rule for target.
+qa_ofdm_new_ff/fast:
+	$(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/build
+.PHONY : qa_ofdm_new_ff/fast
+
+#=============================================================================
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 # Target rules for targets named qa_ofdm_power4_ff
 
 # Build rule for target.
@@ -264,6 +280,7 @@ pygen_python_1f409/fast:
 .PHONY : pygen_python_1f409/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named pygen_apps_8f2fd
 
 # Build rule for target.
@@ -275,6 +292,19 @@ pygen_apps_8f2fd: cmake_check_build_system
 pygen_apps_8f2fd/fast:
 	$(MAKE) -f apps/CMakeFiles/pygen_apps_8f2fd.dir/build.make apps/CMakeFiles/pygen_apps_8f2fd.dir/build
 .PHONY : pygen_apps_8f2fd/fast
+=======
+# Target rules for targets named pygen_apps_55bda
+
+# Build rule for target.
+pygen_apps_55bda: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_apps_55bda
+.PHONY : pygen_apps_55bda
+
+# fast build rule for target.
+pygen_apps_55bda/fast:
+	$(MAKE) -f apps/CMakeFiles/pygen_apps_55bda.dir/build.make apps/CMakeFiles/pygen_apps_55bda.dir/build
+.PHONY : pygen_apps_55bda/fast
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 # Help Target
 help:
@@ -292,13 +322,21 @@ help:
 	@echo "... uninstall"
 	@echo "... gnuradio-ofdm"
 	@echo "... qa_ofdm_cube_ff"
+<<<<<<< HEAD
+=======
+	@echo "... qa_ofdm_new_ff"
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "... qa_ofdm_power4_ff"
 	@echo "... _ofdm_swig"
 	@echo "... _ofdm_swig_doc_tag"
 	@echo "... _ofdm_swig_swig_tag"
 	@echo "... pygen_swig_dbea6"
 	@echo "... pygen_python_1f409"
+<<<<<<< HEAD
 	@echo "... pygen_apps_8f2fd"
+=======
+	@echo "... pygen_apps_55bda"
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 .PHONY : help
 
 

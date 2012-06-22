@@ -29,12 +29,21 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
+<<<<<<< HEAD
       <node id="541">
         <label>T</label>
       </node>
       <node id="540">
         <label>std::stack&lt; T &gt;</label>
         <childnode refid="541" relation="usage">
+=======
+      <node id="543">
+        <label>T</label>
+      </node>
+      <node id="542">
+        <label>std::stack&lt; T &gt;</label>
+        <childnode refid="543" relation="usage">
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
           <edgelabel>elements</edgelabel>
         </childnode>
       </node>

@@ -175,6 +175,23 @@ qa_ofdm_cube_ff/fast:
 .PHONY : qa_ofdm_cube_ff/fast
 
 # Convenience name for target.
+<<<<<<< HEAD
+=======
+lib/CMakeFiles/qa_ofdm_new_ff.dir/rule:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/qa_ofdm_new_ff.dir/rule
+.PHONY : lib/CMakeFiles/qa_ofdm_new_ff.dir/rule
+
+# Convenience name for target.
+qa_ofdm_new_ff: lib/CMakeFiles/qa_ofdm_new_ff.dir/rule
+.PHONY : qa_ofdm_new_ff
+
+# fast build rule for target.
+qa_ofdm_new_ff/fast:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/build
+.PHONY : qa_ofdm_new_ff/fast
+
+# Convenience name for target.
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 lib/CMakeFiles/qa_ofdm_power4_ff.dir/rule:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/qa_ofdm_power4_ff.dir/rule
 .PHONY : lib/CMakeFiles/qa_ofdm_power4_ff.dir/rule
@@ -212,6 +229,33 @@ ofdm_cube_ff.cc.s:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.s
 .PHONY : ofdm_cube_ff.cc.s
 
+<<<<<<< HEAD
+=======
+ofdm_new_ff.o: ofdm_new_ff.cc.o
+.PHONY : ofdm_new_ff.o
+
+# target to build an object file
+ofdm_new_ff.cc.o:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o
+.PHONY : ofdm_new_ff.cc.o
+
+ofdm_new_ff.i: ofdm_new_ff.cc.i
+.PHONY : ofdm_new_ff.i
+
+# target to preprocess a source file
+ofdm_new_ff.cc.i:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.i
+.PHONY : ofdm_new_ff.cc.i
+
+ofdm_new_ff.s: ofdm_new_ff.cc.s
+.PHONY : ofdm_new_ff.s
+
+# target to generate assembly for a file
+ofdm_new_ff.cc.s:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.s
+.PHONY : ofdm_new_ff.cc.s
+
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 ofdm_power4_ff.o: ofdm_power4_ff.cc.o
 .PHONY : ofdm_power4_ff.o
 
@@ -260,6 +304,33 @@ qa_ofdm_cube_ff.cc.s:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/qa_ofdm_cube_ff.dir/build.make lib/CMakeFiles/qa_ofdm_cube_ff.dir/qa_ofdm_cube_ff.cc.s
 .PHONY : qa_ofdm_cube_ff.cc.s
 
+<<<<<<< HEAD
+=======
+qa_ofdm_new_ff.o: qa_ofdm_new_ff.cc.o
+.PHONY : qa_ofdm_new_ff.o
+
+# target to build an object file
+qa_ofdm_new_ff.cc.o:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/qa_ofdm_new_ff.cc.o
+.PHONY : qa_ofdm_new_ff.cc.o
+
+qa_ofdm_new_ff.i: qa_ofdm_new_ff.cc.i
+.PHONY : qa_ofdm_new_ff.i
+
+# target to preprocess a source file
+qa_ofdm_new_ff.cc.i:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/qa_ofdm_new_ff.cc.i
+.PHONY : qa_ofdm_new_ff.cc.i
+
+qa_ofdm_new_ff.s: qa_ofdm_new_ff.cc.s
+.PHONY : qa_ofdm_new_ff.s
+
+# target to generate assembly for a file
+qa_ofdm_new_ff.cc.s:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/qa_ofdm_new_ff.cc.s
+.PHONY : qa_ofdm_new_ff.cc.s
+
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 qa_ofdm_power4_ff.o: qa_ofdm_power4_ff.cc.o
 .PHONY : qa_ofdm_power4_ff.o
 
@@ -297,18 +368,34 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... qa_ofdm_cube_ff"
+<<<<<<< HEAD
+=======
+	@echo "... qa_ofdm_new_ff"
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "... qa_ofdm_power4_ff"
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ofdm_cube_ff.o"
 	@echo "... ofdm_cube_ff.i"
 	@echo "... ofdm_cube_ff.s"
+<<<<<<< HEAD
+=======
+	@echo "... ofdm_new_ff.o"
+	@echo "... ofdm_new_ff.i"
+	@echo "... ofdm_new_ff.s"
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "... ofdm_power4_ff.o"
 	@echo "... ofdm_power4_ff.i"
 	@echo "... ofdm_power4_ff.s"
 	@echo "... qa_ofdm_cube_ff.o"
 	@echo "... qa_ofdm_cube_ff.i"
 	@echo "... qa_ofdm_cube_ff.s"
+<<<<<<< HEAD
+=======
+	@echo "... qa_ofdm_new_ff.o"
+	@echo "... qa_ofdm_new_ff.i"
+	@echo "... qa_ofdm_new_ff.s"
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "... qa_ofdm_power4_ff.o"
 	@echo "... qa_ofdm_power4_ff.i"
 	@echo "... qa_ofdm_power4_ff.s"

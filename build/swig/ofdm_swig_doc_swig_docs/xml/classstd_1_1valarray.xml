@@ -29,12 +29,21 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
+<<<<<<< HEAD
       <node id="571">
         <label>T</label>
       </node>
       <node id="570">
         <label>std::valarray&lt; T &gt;</label>
         <childnode refid="571" relation="usage">
+=======
+      <node id="573">
+        <label>T</label>
+      </node>
+      <node id="572">
+        <label>std::valarray&lt; T &gt;</label>
+        <childnode refid="573" relation="usage">
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
           <edgelabel>elements</edgelabel>
         </childnode>
       </node>

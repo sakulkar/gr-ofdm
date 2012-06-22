@@ -101,12 +101,20 @@ include/preinstall:
 # Convenience name for "all" pass in the directory.
 lib/all: lib/CMakeFiles/gnuradio-ofdm.dir/all
 lib/all: lib/CMakeFiles/qa_ofdm_cube_ff.dir/all
+<<<<<<< HEAD
+=======
+lib/all: lib/CMakeFiles/qa_ofdm_new_ff.dir/all
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 lib/all: lib/CMakeFiles/qa_ofdm_power4_ff.dir/all
 .PHONY : lib/all
 
 # Convenience name for "clean" pass in the directory.
 lib/clean: lib/CMakeFiles/gnuradio-ofdm.dir/clean
 lib/clean: lib/CMakeFiles/qa_ofdm_cube_ff.dir/clean
+<<<<<<< HEAD
+=======
+lib/clean: lib/CMakeFiles/qa_ofdm_new_ff.dir/clean
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 lib/clean: lib/CMakeFiles/qa_ofdm_power4_ff.dir/clean
 .PHONY : lib/clean
 
@@ -121,7 +129,11 @@ lib/preinstall:
 lib/CMakeFiles/gnuradio-ofdm.dir/all:
 	$(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/depend
 	$(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  8 9
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  8 9 10
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "Built target gnuradio-ofdm"
 .PHONY : lib/CMakeFiles/gnuradio-ofdm.dir/all
 
@@ -131,7 +143,11 @@ all: lib/CMakeFiles/gnuradio-ofdm.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/gnuradio-ofdm.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 2
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 3
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	$(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-ofdm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/gnuradio-ofdm.dir/rule
@@ -156,7 +172,11 @@ clean: lib/CMakeFiles/gnuradio-ofdm.dir/clean
 lib/CMakeFiles/qa_ofdm_cube_ff.dir/all: lib/CMakeFiles/gnuradio-ofdm.dir/all
 	$(MAKE) -f lib/CMakeFiles/qa_ofdm_cube_ff.dir/build.make lib/CMakeFiles/qa_ofdm_cube_ff.dir/depend
 	$(MAKE) -f lib/CMakeFiles/qa_ofdm_cube_ff.dir/build.make lib/CMakeFiles/qa_ofdm_cube_ff.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  20
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  22
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "Built target qa_ofdm_cube_ff"
 .PHONY : lib/CMakeFiles/qa_ofdm_cube_ff.dir/all
 
@@ -166,7 +186,11 @@ all: lib/CMakeFiles/qa_ofdm_cube_ff.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/qa_ofdm_cube_ff.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 3
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 4
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	$(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/qa_ofdm_cube_ff.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/qa_ofdm_cube_ff.dir/rule
@@ -185,13 +209,55 @@ clean: lib/CMakeFiles/qa_ofdm_cube_ff.dir/clean
 .PHONY : clean
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for target lib/CMakeFiles/qa_ofdm_new_ff.dir
+
+# All Build rule for target.
+lib/CMakeFiles/qa_ofdm_new_ff.dir/all: lib/CMakeFiles/gnuradio-ofdm.dir/all
+	$(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/depend
+	$(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  23
+	@echo "Built target qa_ofdm_new_ff"
+.PHONY : lib/CMakeFiles/qa_ofdm_new_ff.dir/all
+
+# Include target in all.
+all: lib/CMakeFiles/qa_ofdm_new_ff.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+lib/CMakeFiles/qa_ofdm_new_ff.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/qa_ofdm_new_ff.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 0
+.PHONY : lib/CMakeFiles/qa_ofdm_new_ff.dir/rule
+
+# Convenience name for target.
+qa_ofdm_new_ff: lib/CMakeFiles/qa_ofdm_new_ff.dir/rule
+.PHONY : qa_ofdm_new_ff
+
+# clean rule for target.
+lib/CMakeFiles/qa_ofdm_new_ff.dir/clean:
+	$(MAKE) -f lib/CMakeFiles/qa_ofdm_new_ff.dir/build.make lib/CMakeFiles/qa_ofdm_new_ff.dir/clean
+.PHONY : lib/CMakeFiles/qa_ofdm_new_ff.dir/clean
+
+# clean rule for target.
+clean: lib/CMakeFiles/qa_ofdm_new_ff.dir/clean
+.PHONY : clean
+
+#=============================================================================
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 # Target rules for target lib/CMakeFiles/qa_ofdm_power4_ff.dir
 
 # All Build rule for target.
 lib/CMakeFiles/qa_ofdm_power4_ff.dir/all: lib/CMakeFiles/gnuradio-ofdm.dir/all
 	$(MAKE) -f lib/CMakeFiles/qa_ofdm_power4_ff.dir/build.make lib/CMakeFiles/qa_ofdm_power4_ff.dir/depend
 	$(MAKE) -f lib/CMakeFiles/qa_ofdm_power4_ff.dir/build.make lib/CMakeFiles/qa_ofdm_power4_ff.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  21
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  24
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "Built target qa_ofdm_power4_ff"
 .PHONY : lib/CMakeFiles/qa_ofdm_power4_ff.dir/all
 
@@ -201,7 +267,11 @@ all: lib/CMakeFiles/qa_ofdm_power4_ff.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/qa_ofdm_power4_ff.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 3
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 4
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	$(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/qa_ofdm_power4_ff.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/qa_ofdm_power4_ff.dir/rule
@@ -244,8 +314,13 @@ swig/preinstall:
 # Target rules for target swig/CMakeFiles/_ofdm_swig.dir
 
 # All Build rule for target.
+<<<<<<< HEAD
 swig/CMakeFiles/_ofdm_swig.dir/all: lib/CMakeFiles/gnuradio-ofdm.dir/all
 swig/CMakeFiles/_ofdm_swig.dir/all: swig/CMakeFiles/_ofdm_swig_doc_tag.dir/all
+=======
+swig/CMakeFiles/_ofdm_swig.dir/all: swig/CMakeFiles/_ofdm_swig_doc_tag.dir/all
+swig/CMakeFiles/_ofdm_swig.dir/all: lib/CMakeFiles/gnuradio-ofdm.dir/all
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 swig/CMakeFiles/_ofdm_swig.dir/all: swig/CMakeFiles/_ofdm_swig_swig_tag.dir/all
 	$(MAKE) -f swig/CMakeFiles/_ofdm_swig.dir/build.make swig/CMakeFiles/_ofdm_swig.dir/depend
 	$(MAKE) -f swig/CMakeFiles/_ofdm_swig.dir/build.make swig/CMakeFiles/_ofdm_swig.dir/build
@@ -259,7 +334,11 @@ all: swig/CMakeFiles/_ofdm_swig.dir/all
 
 # Build rule for subdir invocation for target.
 swig/CMakeFiles/_ofdm_swig.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 9
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 10
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	$(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_ofdm_swig.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 0
 .PHONY : swig/CMakeFiles/_ofdm_swig.dir/rule
@@ -355,7 +434,11 @@ swig/CMakeFiles/pygen_swig_dbea6.dir/all: swig/CMakeFiles/_ofdm_swig_doc_tag.dir
 swig/CMakeFiles/pygen_swig_dbea6.dir/all: swig/CMakeFiles/_ofdm_swig_swig_tag.dir/all
 	$(MAKE) -f swig/CMakeFiles/pygen_swig_dbea6.dir/build.make swig/CMakeFiles/pygen_swig_dbea6.dir/depend
 	$(MAKE) -f swig/CMakeFiles/pygen_swig_dbea6.dir/build.make swig/CMakeFiles/pygen_swig_dbea6.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  14 15 16 17 18 19
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  16 17 18 19 20 21
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "Built target pygen_swig_dbea6"
 .PHONY : swig/CMakeFiles/pygen_swig_dbea6.dir/all
 
@@ -405,7 +488,11 @@ python/preinstall:
 python/CMakeFiles/pygen_python_1f409.dir/all:
 	$(MAKE) -f python/CMakeFiles/pygen_python_1f409.dir/build.make python/CMakeFiles/pygen_python_1f409.dir/depend
 	$(MAKE) -f python/CMakeFiles/pygen_python_1f409.dir/build.make python/CMakeFiles/pygen_python_1f409.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  12 13
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  14 15
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "Built target pygen_python_1f409"
 .PHONY : python/CMakeFiles/pygen_python_1f409.dir/all
 
@@ -452,11 +539,19 @@ grc/preinstall:
 # Directory level rules for directory apps
 
 # Convenience name for "all" pass in the directory.
+<<<<<<< HEAD
 apps/all: apps/CMakeFiles/pygen_apps_8f2fd.dir/all
 .PHONY : apps/all
 
 # Convenience name for "clean" pass in the directory.
 apps/clean: apps/CMakeFiles/pygen_apps_8f2fd.dir/clean
+=======
+apps/all: apps/CMakeFiles/pygen_apps_55bda.dir/all
+.PHONY : apps/all
+
+# Convenience name for "clean" pass in the directory.
+apps/clean: apps/CMakeFiles/pygen_apps_55bda.dir/clean
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 .PHONY : apps/clean
 
 # Convenience name for "preinstall" pass in the directory.
@@ -464,6 +559,7 @@ apps/preinstall:
 .PHONY : apps/preinstall
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for target apps/CMakeFiles/pygen_apps_8f2fd.dir
 
 # All Build rule for target.
@@ -496,6 +592,40 @@ apps/CMakeFiles/pygen_apps_8f2fd.dir/clean:
 
 # clean rule for target.
 clean: apps/CMakeFiles/pygen_apps_8f2fd.dir/clean
+=======
+# Target rules for target apps/CMakeFiles/pygen_apps_55bda.dir
+
+# All Build rule for target.
+apps/CMakeFiles/pygen_apps_55bda.dir/all:
+	$(MAKE) -f apps/CMakeFiles/pygen_apps_55bda.dir/build.make apps/CMakeFiles/pygen_apps_55bda.dir/depend
+	$(MAKE) -f apps/CMakeFiles/pygen_apps_55bda.dir/build.make apps/CMakeFiles/pygen_apps_55bda.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles  11 12 13
+	@echo "Built target pygen_apps_55bda"
+.PHONY : apps/CMakeFiles/pygen_apps_55bda.dir/all
+
+# Include target in all.
+all: apps/CMakeFiles/pygen_apps_55bda.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/pygen_apps_55bda.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 apps/CMakeFiles/pygen_apps_55bda.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/pygen_apps_55bda.dir/rule
+
+# Convenience name for target.
+pygen_apps_55bda: apps/CMakeFiles/pygen_apps_55bda.dir/rule
+.PHONY : pygen_apps_55bda
+
+# clean rule for target.
+apps/CMakeFiles/pygen_apps_55bda.dir/clean:
+	$(MAKE) -f apps/CMakeFiles/pygen_apps_55bda.dir/build.make apps/CMakeFiles/pygen_apps_55bda.dir/clean
+.PHONY : apps/CMakeFiles/pygen_apps_55bda.dir/clean
+
+# clean rule for target.
+clean: apps/CMakeFiles/pygen_apps_55bda.dir/clean
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 .PHONY : clean
 
 #=============================================================================

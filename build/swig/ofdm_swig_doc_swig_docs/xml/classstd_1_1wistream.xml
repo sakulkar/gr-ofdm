@@ -8,6 +8,7 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+<<<<<<< HEAD
       <node id="608">
         <label>std::wistream</label>
         <childnode refid="609" relation="public-inheritance">
@@ -24,10 +25,29 @@
         </childnode>
       </node>
       <node id="611">
+=======
+      <node id="610">
+        <label>std::wistream</label>
+        <childnode refid="611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="612">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="613" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="611">
+        <label>std::basic_istream&lt; wchar_t &gt;</label>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="613">
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
         <label>std::ios_base</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+<<<<<<< HEAD
       <node id="612">
         <label>std::wistream</label>
         <childnode refid="613" relation="public-inheritance">
@@ -44,6 +64,24 @@
         </childnode>
       </node>
       <node id="615">
+=======
+      <node id="614">
+        <label>std::wistream</label>
+        <childnode refid="615" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="616">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="617" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="615">
+        <label>std::basic_istream&lt; wchar_t &gt;</label>
+        <childnode refid="616" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="617">
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
         <label>std::ios_base</label>
       </node>
     </collaborationgraph>

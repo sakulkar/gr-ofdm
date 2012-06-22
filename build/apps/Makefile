@@ -147,6 +147,7 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+<<<<<<< HEAD
 apps/CMakeFiles/pygen_apps_8f2fd.dir/rule:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f CMakeFiles/Makefile2 apps/CMakeFiles/pygen_apps_8f2fd.dir/rule
 .PHONY : apps/CMakeFiles/pygen_apps_8f2fd.dir/rule
@@ -159,6 +160,20 @@ pygen_apps_8f2fd: apps/CMakeFiles/pygen_apps_8f2fd.dir/rule
 pygen_apps_8f2fd/fast:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f apps/CMakeFiles/pygen_apps_8f2fd.dir/build.make apps/CMakeFiles/pygen_apps_8f2fd.dir/build
 .PHONY : pygen_apps_8f2fd/fast
+=======
+apps/CMakeFiles/pygen_apps_55bda.dir/rule:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f CMakeFiles/Makefile2 apps/CMakeFiles/pygen_apps_55bda.dir/rule
+.PHONY : apps/CMakeFiles/pygen_apps_55bda.dir/rule
+
+# Convenience name for target.
+pygen_apps_55bda: apps/CMakeFiles/pygen_apps_55bda.dir/rule
+.PHONY : pygen_apps_55bda
+
+# fast build rule for target.
+pygen_apps_55bda/fast:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f apps/CMakeFiles/pygen_apps_55bda.dir/build.make apps/CMakeFiles/pygen_apps_55bda.dir/build
+.PHONY : pygen_apps_55bda/fast
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 # Help Target
 help:
@@ -171,7 +186,11 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+<<<<<<< HEAD
 	@echo "... pygen_apps_8f2fd"
+=======
+	@echo "... pygen_apps_55bda"
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 	@echo "... rebuild_cache"
 	@echo "... test"
 .PHONY : help

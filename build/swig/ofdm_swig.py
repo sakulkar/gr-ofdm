@@ -369,5 +369,114 @@ def power4_ff():
     Params: (NONE)
     """
   return _ofdm_swig.power4_ff()
+<<<<<<< HEAD
+=======
+class ofdm_new_ff_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(ofdm_new_ff)> class"""
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        """
+        __init__(self) -> ofdm_new_ff_sptr
+        __init__(self,  p) -> ofdm_new_ff_sptr
+        """
+        this = _ofdm_swig.new_ofdm_new_ff_sptr(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def __deref__(self):
+        """__deref__(self)"""
+        return _ofdm_swig.ofdm_new_ff_sptr___deref__(self)
+
+    __swig_destroy__ = _ofdm_swig.delete_ofdm_new_ff_sptr
+    __del__ = lambda self : None;
+    def general_work(self, *args, **kwargs):
+        """
+        general_work(self, int noutput_items, gr_vector_int ninput_items, gr_vector_const_void_star input_items, 
+            gr_vector_void_star output_items) -> int
+
+        Params: (noutput_items, ninput_items, input_items, output_items)
+        """
+        return _ofdm_swig.ofdm_new_ff_sptr_general_work(self, *args, **kwargs)
+
+    def history(self):
+        """history(self) -> unsigned int"""
+        return _ofdm_swig.ofdm_new_ff_sptr_history(self)
+
+    def output_multiple(self):
+        """output_multiple(self) -> int"""
+        return _ofdm_swig.ofdm_new_ff_sptr_output_multiple(self)
+
+    def relative_rate(self):
+        """relative_rate(self) -> double"""
+        return _ofdm_swig.ofdm_new_ff_sptr_relative_rate(self)
+
+    def start(self):
+        """start(self) -> bool"""
+        return _ofdm_swig.ofdm_new_ff_sptr_start(self)
+
+    def stop(self):
+        """stop(self) -> bool"""
+        return _ofdm_swig.ofdm_new_ff_sptr_stop(self)
+
+    def nitems_read(self, *args, **kwargs):
+        """nitems_read(self, unsigned int which_input) -> uint64_t"""
+        return _ofdm_swig.ofdm_new_ff_sptr_nitems_read(self, *args, **kwargs)
+
+    def nitems_written(self, *args, **kwargs):
+        """nitems_written(self, unsigned int which_output) -> uint64_t"""
+        return _ofdm_swig.ofdm_new_ff_sptr_nitems_written(self, *args, **kwargs)
+
+    def detail(self):
+        """detail(self) -> gr_block_detail_sptr"""
+        return _ofdm_swig.ofdm_new_ff_sptr_detail(self)
+
+    def set_detail(self, *args, **kwargs):
+        """set_detail(self, gr_block_detail_sptr detail)"""
+        return _ofdm_swig.ofdm_new_ff_sptr_set_detail(self, *args, **kwargs)
+
+    def name(self):
+        """name(self) -> string"""
+        return _ofdm_swig.ofdm_new_ff_sptr_name(self)
+
+    def input_signature(self):
+        """input_signature(self) -> gr_io_signature_sptr"""
+        return _ofdm_swig.ofdm_new_ff_sptr_input_signature(self)
+
+    def output_signature(self):
+        """output_signature(self) -> gr_io_signature_sptr"""
+        return _ofdm_swig.ofdm_new_ff_sptr_output_signature(self)
+
+    def unique_id(self):
+        """unique_id(self) -> long"""
+        return _ofdm_swig.ofdm_new_ff_sptr_unique_id(self)
+
+    def to_basic_block(self):
+        """to_basic_block(self) -> gr_basic_block_sptr"""
+        return _ofdm_swig.ofdm_new_ff_sptr_to_basic_block(self)
+
+    def check_topology(self, *args, **kwargs):
+        """check_topology(self, int ninputs, int noutputs) -> bool"""
+        return _ofdm_swig.ofdm_new_ff_sptr_check_topology(self, *args, **kwargs)
+
+ofdm_new_ff_sptr_swigregister = _ofdm_swig.ofdm_new_ff_sptr_swigregister
+ofdm_new_ff_sptr_swigregister(ofdm_new_ff_sptr)
+
+ofdm_new_ff_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id ())
+
+
+def new_ff():
+  """
+    new_ff() -> ofdm_new_ff_sptr
+
+    square a stream of floats.
+
+    Return a shared_ptr to a new instance of howto_square_ff.
+
+    To avoid accidental use of raw pointers, howto_square_ff's constructor is private. howto_make_square_ff is the public interface for creating new instances.
+
+    Params: (NONE)
+    """
+  return _ofdm_swig.new_ff()
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 
 

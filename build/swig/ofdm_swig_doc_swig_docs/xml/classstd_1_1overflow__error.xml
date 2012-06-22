@@ -8,6 +8,7 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+<<<<<<< HEAD
       <node id="489">
         <label>std::runtime_error</label>
         <childnode refid="490" relation="public-inheritance">
@@ -19,10 +20,24 @@
       <node id="488">
         <label>std::overflow_error</label>
         <childnode refid="489" relation="public-inheritance">
+=======
+      <node id="491">
+        <label>std::runtime_error</label>
+        <childnode refid="492" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="492">
+        <label>std::exception</label>
+      </node>
+      <node id="490">
+        <label>std::overflow_error</label>
+        <childnode refid="491" relation="public-inheritance">
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+<<<<<<< HEAD
       <node id="492">
         <label>std::runtime_error</label>
         <childnode refid="493" relation="public-inheritance">
@@ -34,6 +49,19 @@
       <node id="491">
         <label>std::overflow_error</label>
         <childnode refid="492" relation="public-inheritance">
+=======
+      <node id="494">
+        <label>std::runtime_error</label>
+        <childnode refid="495" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>std::exception</label>
+      </node>
+      <node id="493">
+        <label>std::overflow_error</label>
+        <childnode refid="494" relation="public-inheritance">
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
         </childnode>
       </node>
     </collaborationgraph>

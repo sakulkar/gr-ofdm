@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 CMAKE_PROGRESS_1 = 20
+=======
+CMAKE_PROGRESS_1 = 22
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 

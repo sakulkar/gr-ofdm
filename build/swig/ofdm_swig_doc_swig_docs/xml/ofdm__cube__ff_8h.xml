@@ -5,6 +5,7 @@
     <includes refid="ofdm__api_8h" local="no">ofdm_api.h</includes>
     <includes local="no">gr_block.h</includes>
     <incdepgraph>
+<<<<<<< HEAD
       <node id="7">
         <label>gruel/attributes.h</label>
       </node>
@@ -23,6 +24,26 @@
         <label>ofdm_api.h</label>
         <link refid="ofdm__api_8h"/>
         <childnode refid="7" relation="include">
+=======
+      <node id="8">
+        <label>gruel/attributes.h</label>
+      </node>
+      <node id="6">
+        <label>/home/sakulkar/workspace/gr-ofdm/include/ofdm_cube_ff.h</label>
+        <link refid="ofdm_cube_ff.h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr_block.h</label>
+      </node>
+      <node id="7">
+        <label>ofdm_api.h</label>
+        <link refid="ofdm__api_8h"/>
+        <childnode refid="8" relation="include">
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
         </childnode>
       </node>
     </incdepgraph>

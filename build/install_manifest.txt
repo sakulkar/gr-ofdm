@@ -1,6 +1,10 @@
 /usr/local/include/ofdm/ofdm_api.h
 /usr/local/include/ofdm/ofdm_cube_ff.h
 /usr/local/include/ofdm/ofdm_power4_ff.h
+<<<<<<< HEAD
+=======
+/usr/local/include/ofdm/ofdm_new_ff.h
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
 /usr/local/lib/libgnuradio-ofdm.so
 /usr/local/lib/python2.7/dist-packages/ofdm/_ofdm_swig.so
 /usr/local/lib/python2.7/dist-packages/ofdm/ofdm_swig.py
@@ -13,5 +17,12 @@
 /usr/local/lib/python2.7/dist-packages/ofdm/__init__.pyo
 /usr/local/share/gnuradio/grc/blocks/ofdm_cube_ff.xml
 /usr/local/share/gnuradio/grc/blocks/ofdm_power4_ff.xml
+<<<<<<< HEAD
 /usr/local/bin/ofdm_cube.py
 /usr/local/bin/ofdm_power4.py
+=======
+/usr/local/share/gnuradio/grc/blocks/ofdm_new_ff.xml
+/usr/local/bin/ofdm_cube.py
+/usr/local/bin/ofdm_power4.py
+/usr/local/bin/ofdm_new.py
+>>>>>>> 20fde43064661e76dc1a1dfd66ea316452f7bb05
