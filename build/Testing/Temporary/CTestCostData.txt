@@ -1,5 +1,5 @@
-qa_ofdm_cube_ff 1 0.00586295
-qa_ofdm_power4_ff 1 0.00514197
-qa_ofdm_new_ff 1 0.00544
-qa_ofdm 1 0.141625
+qa_ofdm_cube_ff 1 0.00565815
+qa_ofdm_power4_ff 1 0.00520515
+qa_ofdm_new_ff 1 0.00513315
+qa_ofdm 1 0.140653
 ---

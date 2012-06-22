@@ -289,6 +289,19 @@ pygen_apps_55bda/fast:
 	$(MAKE) -f apps/CMakeFiles/pygen_apps_55bda.dir/build.make apps/CMakeFiles/pygen_apps_55bda.dir/build
 .PHONY : pygen_apps_55bda/fast
 
+#=============================================================================
+# Target rules for targets named doxygen_target
+
+# Build rule for target.
+doxygen_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doxygen_target
+.PHONY : doxygen_target
+
+# fast build rule for target.
+doxygen_target/fast:
+	$(MAKE) -f docs/doxygen/CMakeFiles/doxygen_target.dir/build.make docs/doxygen/CMakeFiles/doxygen_target.dir/build
+.PHONY : doxygen_target/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -313,6 +326,7 @@ help:
 	@echo "... pygen_swig_dbea6"
 	@echo "... pygen_python_1f409"
 	@echo "... pygen_apps_55bda"
+	@echo "... doxygen_target"
 .PHONY : help
 
 
