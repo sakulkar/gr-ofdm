@@ -11,6 +11,7 @@
 %{
 #include "ofdm_cube_ff.h"
 #include "ofdm_power4_ff.h"
+#include "ofdm_new_ff.h"
 %}
 
 GR_SWIG_BLOCK_MAGIC(ofdm,cube_ff);
@@ -18,3 +19,6 @@ GR_SWIG_BLOCK_MAGIC(ofdm,cube_ff);
 
 GR_SWIG_BLOCK_MAGIC(ofdm,power4_ff);
 %include "ofdm_power4_ff.h"
+
+GR_SWIG_BLOCK_MAGIC(ofdm,new_ff);
+%include "ofdm_new_ff.h"

@@ -1,6 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o"
   "CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o"
+  "CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o"
   "libgnuradio-ofdm.pdb"
   "libgnuradio-ofdm.so"
 )

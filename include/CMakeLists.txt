@@ -24,5 +24,6 @@ install(FILES
     ofdm_api.h
     ofdm_cube_ff.h
     ofdm_power4_ff.h
+    ofdm_new_ff.h
     DESTINATION include/ofdm
 )

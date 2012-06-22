@@ -75,6 +75,7 @@ swig/ofdm_swig.tag: swig/_ofdm_swig_swig_tag
 	cd /home/sakulkar/workspace/gr-ofdm/build/swig && ./_ofdm_swig_swig_tag
 	cd /home/sakulkar/workspace/gr-ofdm/build/swig && /usr/bin/cmake -E touch /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_swig.tag
 
+swig/ofdm_swig_doc.i: ../swig/../include/ofdm_new_ff.h
 swig/ofdm_swig_doc.i: ../swig/../include/ofdm_power4_ff.h
 swig/ofdm_swig_doc.i: ../swig/../include/ofdm_cube_ff.h
 swig/ofdm_swig_doc.i: ../swig/../include/ofdm_api.h
@@ -83,6 +84,7 @@ swig/ofdm_swig_doc.i: swig/ofdm_swig_doc_swig_docs/xml/index.xml
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ofdm_swig_doc.i"
 	cd /home/sakulkar/workspace/gr-ofdm/docs/doxygen && /usr/bin/python -B /home/sakulkar/workspace/gr-ofdm/docs/doxygen/swig_doc.py /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_swig_doc_swig_docs/xml /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_swig_doc.i
 
+swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_new_ff.h
 swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_power4_ff.h
 swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_cube_ff.h
 swig/ofdm_swig_doc_swig_docs/xml/index.xml: ../swig/../include/ofdm_api.h

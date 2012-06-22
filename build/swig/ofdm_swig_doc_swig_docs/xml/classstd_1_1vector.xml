@@ -33,12 +33,12 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="574">
+      <node id="576">
         <label>T</label>
       </node>
-      <node id="573">
+      <node id="575">
         <label>std::vector&lt; T &gt;</label>
-        <childnode refid="574" relation="usage">
+        <childnode refid="576" relation="usage">
           <edgelabel>elements</edgelabel>
         </childnode>
       </node>

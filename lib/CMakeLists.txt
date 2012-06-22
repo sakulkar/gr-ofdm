@@ -22,7 +22,7 @@
 ########################################################################
 include(GrPlatform) #define LIB_SUFFIX
 
-add_library(gnuradio-ofdm SHARED ofdm_cube_ff.cc ofdm_power4_ff.cc)
+add_library(gnuradio-ofdm SHARED ofdm_cube_ff.cc ofdm_power4_ff.cc ofdm_new_ff.cc)
 target_link_libraries(gnuradio-ofdm ${Boost_LIBRARIES} ${GRUEL_LIBRARIES} ${GNURADIO_CORE_LIBRARIES})
 set_target_properties(gnuradio-ofdm PROPERTIES DEFINE_SYMBOL "gnuradio_ofdm_EXPORTS")
 
@@ -52,3 +52,7 @@ GR_ADD_TEST(qa_ofdm_cube_ff qa_ofdm_cube_ff)
 add_executable(qa_ofdm_power4_ff qa_ofdm_power4_ff.cc)
 target_link_libraries(qa_ofdm_power4_ff gnuradio-ofdm ${Boost_LIBRARIES})
 GR_ADD_TEST(qa_ofdm_power4_ff qa_ofdm_power4_ff)
+
+add_executable(qa_ofdm_new_ff qa_ofdm_new_ff.cc)
+target_link_libraries(qa_ofdm_new_ff gnuradio-ofdm ${Boost_LIBRARIES})
+GR_ADD_TEST(qa_ofdm_new_ff qa_ofdm_new_ff)

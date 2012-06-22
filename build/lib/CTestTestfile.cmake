@@ -6,3 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 ADD_TEST(qa_ofdm_cube_ff "/bin/sh" "/home/sakulkar/workspace/gr-ofdm/build/lib/qa_ofdm_cube_ff_test.sh")
 ADD_TEST(qa_ofdm_power4_ff "/bin/sh" "/home/sakulkar/workspace/gr-ofdm/build/lib/qa_ofdm_power4_ff_test.sh")
+ADD_TEST(qa_ofdm_new_ff "/bin/sh" "/home/sakulkar/workspace/gr-ofdm/build/lib/qa_ofdm_new_ff_test.sh")

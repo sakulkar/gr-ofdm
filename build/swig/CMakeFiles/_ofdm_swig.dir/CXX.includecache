@@ -16,6 +16,12 @@ ofdm_api.h
 gr_block.h
 -
 
+../include/ofdm_new_ff.h
+ofdm_api.h
+-
+gr_block.h
+-
+
 ../include/ofdm_power4_ff.h
 ofdm_api.h
 -
@@ -77,6 +83,8 @@ ofdm_cube_ff.h
 /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_cube_ff.h
 ofdm_power4_ff.h
 /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_power4_ff.h
+ofdm_new_ff.h
+/home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_new_ff.h
 limits.h
 -
 

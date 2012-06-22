@@ -75,11 +75,11 @@
   </compound>
   <compound refid="classstd_1_1string_1_1const__reverse__iterator" kind="class"><name>std::string::const_reverse_iterator</name>
   </compound>
-  <compound refid="classstd_1_1list_1_1const__reverse__iterator" kind="class"><name>std::list::const_reverse_iterator</name>
-  </compound>
   <compound refid="classstd_1_1wstring_1_1const__reverse__iterator" kind="class"><name>std::wstring::const_reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1deque_1_1const__reverse__iterator" kind="class"><name>std::deque::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1const__reverse__iterator" kind="class"><name>std::list::const_reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1deque" kind="class"><name>std::deque</name>
     <member refid="classstd_1_1deque_1a090b92581de438d2e14bedc190f0b0f9" kind="variable"><name>elements</name></member>
@@ -104,7 +104,7 @@
   </compound>
   <compound refid="classstd_1_1istringstream" kind="class"><name>std::istringstream</name>
   </compound>
-  <compound refid="classstd_1_1map_1_1iterator" kind="class"><name>std::map::iterator</name>
+  <compound refid="classstd_1_1list_1_1iterator" kind="class"><name>std::list::iterator</name>
   </compound>
   <compound refid="classstd_1_1multimap_1_1iterator" kind="class"><name>std::multimap::iterator</name>
   </compound>
@@ -122,7 +122,7 @@
   </compound>
   <compound refid="classstd_1_1deque_1_1iterator" kind="class"><name>std::deque::iterator</name>
   </compound>
-  <compound refid="classstd_1_1list_1_1iterator" kind="class"><name>std::list::iterator</name>
+  <compound refid="classstd_1_1map_1_1iterator" kind="class"><name>std::map::iterator</name>
   </compound>
   <compound refid="classstd_1_1length__error" kind="class"><name>std::length_error</name>
   </compound>
@@ -148,6 +148,12 @@
     <member refid="classofdm__cube__ff_1ad4250902392f2c64ee908b56892bd214" kind="function"><name>~ofdm_cube_ff</name></member>
     <member refid="classofdm__cube__ff_1a91f9b3200a07606181f7a665ed7738d9" kind="function"><name>general_work</name></member>
   </compound>
+  <compound refid="classofdm__new__ff" kind="class"><name>ofdm_new_ff</name>
+    <member refid="classofdm__new__ff_1aac3919c62acd0e869d8f8cf5d9d3418b" kind="friend"><name>ofdm_make_new_ff</name></member>
+    <member refid="classofdm__new__ff_1ab6ccd908e21912163bf11ac27b59d0ef" kind="function"><name>ofdm_new_ff</name></member>
+    <member refid="classofdm__new__ff_1a171385718c9c7ae1800901f69bffffed" kind="function"><name>~ofdm_new_ff</name></member>
+    <member refid="classofdm__new__ff_1a62160bef4cf706228a11f5ba320228d6" kind="function"><name>general_work</name></member>
+  </compound>
   <compound refid="classofdm__power4__ff" kind="class"><name>ofdm_power4_ff</name>
     <member refid="classofdm__power4__ff_1a60cbd3b83d53121dbcfa247f2f684939" kind="friend"><name>ofdm_make_power4_ff</name></member>
     <member refid="classofdm__power4__ff_1ad90edb12ef25a200458324b62659bec8" kind="function"><name>ofdm_power4_ff</name></member>
@@ -172,11 +178,13 @@
   </compound>
   <compound refid="classstd_1_1range__error" kind="class"><name>std::range_error</name>
   </compound>
-  <compound refid="classstd_1_1map_1_1reverse__iterator" kind="class"><name>std::map::reverse_iterator</name>
+  <compound refid="classstd_1_1vector_1_1reverse__iterator" kind="class"><name>std::vector::reverse_iterator</name>
   </compound>
-  <compound refid="classstd_1_1list_1_1reverse__iterator" kind="class"><name>std::list::reverse_iterator</name>
+  <compound refid="classstd_1_1multiset_1_1reverse__iterator" kind="class"><name>std::multiset::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1wstring_1_1reverse__iterator" kind="class"><name>std::wstring::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1reverse__iterator" kind="class"><name>std::list::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1string_1_1reverse__iterator" kind="class"><name>std::string::reverse_iterator</name>
   </compound>
@@ -186,9 +194,7 @@
   </compound>
   <compound refid="classstd_1_1multimap_1_1reverse__iterator" kind="class"><name>std::multimap::reverse_iterator</name>
   </compound>
-  <compound refid="classstd_1_1vector_1_1reverse__iterator" kind="class"><name>std::vector::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1multiset_1_1reverse__iterator" kind="class"><name>std::multiset::reverse_iterator</name>
+  <compound refid="classstd_1_1map_1_1reverse__iterator" kind="class"><name>std::map::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1deque_1_1reverse__iterator" kind="class"><name>std::deque::reverse_iterator</name>
   </compound>
@@ -252,6 +258,10 @@
   <compound refid="ofdm__cube__ff_8h" kind="file"><name>ofdm_cube_ff.h</name>
     <member refid="ofdm__cube__ff_8h_1a4fc35c7ed0febe1afa390e824707f2e2" kind="typedef"><name>ofdm_cube_ff_sptr</name></member>
     <member refid="ofdm__cube__ff_8h_1a1fb8eb9e1a8aac8176f667fbdc38e0d0" kind="function"><name>ofdm_make_cube_ff</name></member>
+  </compound>
+  <compound refid="ofdm__new__ff_8h" kind="file"><name>ofdm_new_ff.h</name>
+    <member refid="ofdm__new__ff_8h_1aabbb14af02f5904878b197840ae91911" kind="typedef"><name>ofdm_new_ff_sptr</name></member>
+    <member refid="ofdm__new__ff_8h_1aac3919c62acd0e869d8f8cf5d9d3418b" kind="function"><name>ofdm_make_new_ff</name></member>
   </compound>
   <compound refid="ofdm__power4__ff_8h" kind="file"><name>ofdm_power4_ff.h</name>
     <member refid="ofdm__power4__ff_8h_1a7333101238389c2ce47c10a266e62119" kind="typedef"><name>ofdm_power4_ff_sptr</name></member>
