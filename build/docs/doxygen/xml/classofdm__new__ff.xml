@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classofdm__new__ff" kind="class" prot="public">
+    <compoundname>ofdm_new_ff</compoundname>
+    <includes refid="ofdm__new__ff_8h" local="no">ofdm_new_ff.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classofdm__new__ff_1a9fb84dc1e9da8c905c51fc45e179b595" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="ofdm__api_8h_1ae5b00e31ffa80275f53aa2e386ecca33" kindref="member">OFDM_API</ref> ofdm_new_ff_sptr</type>
+        <definition>OFDM_API ofdm_new_ff_sptr ofdm_make_new_ff</definition>
+        <argsstring>()</argsstring>
+        <name>ofdm_make_new_ff</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of howto_square_ff. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, howto_square_ff&apos;s constructor is private. howto_make_square_ff is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_new_ff.h" line="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classofdm__new__ff_1ab6ccd908e21912163bf11ac27b59d0ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofdm_new_ff::ofdm_new_ff</definition>
+        <argsstring>()</argsstring>
+        <name>ofdm_new_ff</name>
+        <briefdescription>
+<para>square a stream of floats. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_new_ff.h" line="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classofdm__new__ff_1a171385718c9c7ae1800901f69bffffed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofdm_new_ff::~ofdm_new_ff</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_new_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_new_ff.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classofdm__new__ff_1a62160bef4cf706228a11f5ba320228d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofdm_new_ff::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_new_ff.h" line="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>square a stream of floats. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>howto_square2_ff for a version that subclasses gr_sync_block. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_new_ff.h" line="59" bodyfile="/home/sakulkar/workspace/gr-ofdm/include/ofdm_new_ff.h" bodystart="58" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classofdm__new__ff_1a62160bef4cf706228a11f5ba320228d6" prot="public" virt="non-virtual"><scope>ofdm_new_ff</scope><name>general_work</name></member>
+      <member refid="classofdm__new__ff_1a9fb84dc1e9da8c905c51fc45e179b595" prot="private" virt="non-virtual"><scope>ofdm_new_ff</scope><name>ofdm_make_new_ff</name></member>
+      <member refid="classofdm__new__ff_1ab6ccd908e21912163bf11ac27b59d0ef" prot="private" virt="non-virtual"><scope>ofdm_new_ff</scope><name>ofdm_new_ff</name></member>
+      <member refid="classofdm__new__ff_1a171385718c9c7ae1800901f69bffffed" prot="public" virt="non-virtual"><scope>ofdm_new_ff</scope><name>~ofdm_new_ff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

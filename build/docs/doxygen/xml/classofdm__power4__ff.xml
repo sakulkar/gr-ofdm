@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classofdm__power4__ff" kind="class" prot="public">
+    <compoundname>ofdm_power4_ff</compoundname>
+    <includes refid="ofdm__power4__ff_8h" local="no">ofdm_power4_ff.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classofdm__power4__ff_1ad07c0bcc4d6dc54c38f632c30c88f5ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="ofdm__api_8h_1ae5b00e31ffa80275f53aa2e386ecca33" kindref="member">OFDM_API</ref> ofdm_power4_ff_sptr</type>
+        <definition>OFDM_API ofdm_power4_ff_sptr ofdm_make_power4_ff</definition>
+        <argsstring>()</argsstring>
+        <name>ofdm_make_power4_ff</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of howto_square2_ff. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, howto_square2_ff&apos;s constructor is private. howto_make_square2_ff is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_power4_ff.h" line="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classofdm__power4__ff_1ad90edb12ef25a200458324b62659bec8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofdm_power4_ff::ofdm_power4_ff</definition>
+        <argsstring>()</argsstring>
+        <name>ofdm_power4_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_power4_ff.h" line="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classofdm__power4__ff_1a4d13904b09e8a6e0fe7f18c37fb7efa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofdm_power4_ff::~ofdm_power4_ff</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_power4_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_power4_ff.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classofdm__power4__ff_1a8f74e389a71345e525ec39a4c40f7884" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofdm_power4_ff::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_power4_ff.h" line="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>square2 a stream of floats.</para><para>This uses the preferred technique: subclassing gr_sync_block. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_power4_ff.h" line="59" bodyfile="/home/sakulkar/workspace/gr-ofdm/include/ofdm_power4_ff.h" bodystart="58" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classofdm__power4__ff_1ad07c0bcc4d6dc54c38f632c30c88f5ce" prot="private" virt="non-virtual"><scope>ofdm_power4_ff</scope><name>ofdm_make_power4_ff</name></member>
+      <member refid="classofdm__power4__ff_1ad90edb12ef25a200458324b62659bec8" prot="private" virt="non-virtual"><scope>ofdm_power4_ff</scope><name>ofdm_power4_ff</name></member>
+      <member refid="classofdm__power4__ff_1a8f74e389a71345e525ec39a4c40f7884" prot="public" virt="non-virtual"><scope>ofdm_power4_ff</scope><name>work</name></member>
+      <member refid="classofdm__power4__ff_1a4d13904b09e8a6e0fe7f18c37fb7efa5" prot="public" virt="non-virtual"><scope>ofdm_power4_ff</scope><name>~ofdm_power4_ff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

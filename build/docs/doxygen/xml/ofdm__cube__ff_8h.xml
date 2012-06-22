@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="ofdm__cube__ff_8h" kind="file">
+    <compoundname>ofdm_cube_ff.h</compoundname>
+    <includes refid="ofdm__api_8h" local="no">ofdm_api.h</includes>
+    <includes local="no">gr_block.h</includes>
+    <incdepgraph>
+      <node id="37">
+        <label>gruel/attributes.h</label>
+      </node>
+      <node id="35">
+        <label>ofdm_cube_ff.h</label>
+        <link refid="ofdm_cube_ff.h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>gr_block.h</label>
+      </node>
+      <node id="36">
+        <label>ofdm_api.h</label>
+        <link refid="ofdm__api_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classofdm__cube__ff" prot="public">ofdm_cube_ff</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ofdm__cube__ff_8h_1a3b1c9aa0065a5cc7499183513dd4db4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="ofdm__api_8h_1ae5b00e31ffa80275f53aa2e386ecca33" kindref="member">OFDM_API</ref> ofdm_cube_ff_sptr</type>
+        <definition>OFDM_API ofdm_cube_ff_sptr ofdm_make_cube_ff</definition>
+        <argsstring>()</argsstring>
+        <name>ofdm_make_cube_ff</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of howto_square_ff. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, howto_square_ff&apos;s constructor is private. howto_make_square_ff is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_cube_ff.h" line="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_cube_ff.h"/>
+  </compounddef>
+</doxygen>
