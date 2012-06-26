@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="ofdm__accumulator__cc_8h" kind="file">
+    <compoundname>ofdm_accumulator_cc.h</compoundname>
+    <includes refid="ofdm__api_8h" local="no">ofdm_api.h</includes>
+    <includes refid="gr__block__fwd_8h" local="yes">gr_block_fwd.h</includes>
+    <includes local="no">gr_block.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>gruel/attributes.h</label>
+      </node>
+      <node id="3">
+        <label>/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h</label>
+        <link refid="ofdm_accumulator_cc.h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr_block_fwd.h</label>
+        <link refid="gr__block__fwd_8h"/>
+      </node>
+      <node id="7">
+        <label>gr_block.h</label>
+      </node>
+      <node id="4">
+        <label>ofdm_api.h</label>
+        <link refid="ofdm__api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classofdm__accumulator__cc" prot="public">ofdm_accumulator_cc</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="ofdm__accumulator__cc_8h_1a6efcb52dd8159486fcebf969c6ec250a" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classofdm__accumulator__cc" kindref="compound">ofdm_accumulator_cc</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;ofdm_accumulator_cc&gt; ofdm_accumulator_cc_sptr</definition>
+        <argsstring></argsstring>
+        <name>ofdm_accumulator_cc_sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="9" bodyfile="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ofdm__accumulator__cc_8h_1ae9819c9eb6f5737a526388c8930a6665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="ofdm__api_8h_1ae5b00e31ffa80275f53aa2e386ecca33" kindref="member">OFDM_API</ref> <ref refid="ofdm__accumulator__cc_8h_1a6efcb52dd8159486fcebf969c6ec250a" kindref="member">ofdm_accumulator_cc_sptr</ref></type>
+        <definition>OFDM_API ofdm_accumulator_cc_sptr ofdm_make_accumulator_cc</definition>
+        <argsstring>()</argsstring>
+        <name>ofdm_make_accumulator_cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>INCLUDED_OFDM_ACCUMULATOR_CC_H_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_OFDM_ACCUMULATOR_CC_H_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="ofdm__api_8h" kindref="compound">ofdm_api.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gr__block__fwd_8h" kindref="compound">gr_block_fwd.h</ref>&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>forward<sp/>declarations<sp/>--specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_block.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="ofdm__accumulator__cc_8h_1a6efcb52dd8159486fcebf969c6ec250a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classofdm__accumulator__cc" kindref="compound">ofdm_accumulator_cc</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;ofdm_accumulator_cc&gt;<sp/><ref refid="ofdm__accumulator__cc_8h_1a6efcb52dd8159486fcebf969c6ec250a" kindref="member">ofdm_accumulator_cc_sptr</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="ofdm__api_8h_1ae5b00e31ffa80275f53aa2e386ecca33" kindref="member">OFDM_API</ref><sp/><ref refid="ofdm__accumulator__cc_8h_1a6efcb52dd8159486fcebf969c6ec250a" kindref="member">ofdm_accumulator_cc_sptr</ref><sp/><ref refid="ofdm__accumulator__cc_8h_1ae9819c9eb6f5737a526388c8930a6665" kindref="member">ofdm_make_accumulator_cc</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classofdm__accumulator__cc" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="ofdm__api_8h_1ae5b00e31ffa80275f53aa2e386ecca33" kindref="member">OFDM_API</ref><sp/><ref refid="classofdm__accumulator__cc" kindref="compound">ofdm_accumulator_cc</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>gr_sync_block</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="ofdm__api_8h_1ae5b00e31ffa80275f53aa2e386ecca33" kindref="member">OFDM_API</ref><sp/><ref refid="ofdm__accumulator__cc_8h_1a6efcb52dd8159486fcebf969c6ec250a" kindref="member">ofdm_accumulator_cc_sptr</ref><sp/><ref refid="ofdm__accumulator__cc_8h_1ae9819c9eb6f5737a526388c8930a6665" kindref="member">ofdm_make_accumulator_cc</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classofdm__accumulator__cc" kindref="compound">ofdm_accumulator_cc</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>gr_complex<sp/>d_accum;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classofdm__accumulator__cc_1a301c683d462c5de43cfabe5be53bf87c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofdm__accumulator__cc_1a301c683d462c5de43cfabe5be53bf87c" kindref="member">reset</ref>()<sp/>{<sp/>d_accum<sp/>=<sp/>gr_complex(0.0,0.0);<sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classofdm__accumulator__cc_1a384c0192941bcd50462cc3f22fe5e8d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classofdm__accumulator__cc_1a384c0192941bcd50462cc3f22fe5e8d5" kindref="member">~ofdm_accumulator_cc</ref>()<sp/>{};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>work(</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>noutput_items,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>gr_vector_const_void_star<sp/>&amp;input_items,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>gr_vector_void_star<sp/>&amp;output_items);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ACCUMULATOR_CC_H_<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h"/>
+  </compounddef>
+</doxygen>

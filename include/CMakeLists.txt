@@ -25,5 +25,7 @@ install(FILES
     ofdm_cube_ff.h
     ofdm_power4_ff.h
     ofdm_new_ff.h
+    ofdm_accumulator_cc.h
+    gr_block_fwd.h
     DESTINATION include/ofdm
 )

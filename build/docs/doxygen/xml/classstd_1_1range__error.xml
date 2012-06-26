@@ -8,21 +8,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="506">
-        <label>std::runtime_error</label>
-        <childnode refid="507" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="507">
-        <label>std::exception</label>
-      </node>
-      <node id="505">
-        <label>std::range_error</label>
-        <childnode refid="506" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="509">
         <label>std::runtime_error</label>
         <childnode refid="510" relation="public-inheritance">
@@ -34,6 +19,21 @@
       <node id="508">
         <label>std::range_error</label>
         <childnode refid="509" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="512">
+        <label>std::runtime_error</label>
+        <childnode refid="513" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="513">
+        <label>std::exception</label>
+      </node>
+      <node id="511">
+        <label>std::range_error</label>
+        <childnode refid="512" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -115,11 +115,35 @@ lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o.provides: lib/CMakeFiles/gnura
 
 lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o.provides.build: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o
 
+lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o: lib/CMakeFiles/gnuradio-ofdm.dir/flags.make
+lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o: ../lib/ofdm_accumulator_cc.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakulkar/workspace/gr-ofdm/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o"
+	cd /home/sakulkar/workspace/gr-ofdm/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o -c /home/sakulkar/workspace/gr-ofdm/lib/ofdm_accumulator_cc.cc
+
+lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.i"
+	cd /home/sakulkar/workspace/gr-ofdm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sakulkar/workspace/gr-ofdm/lib/ofdm_accumulator_cc.cc > CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.i
+
+lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.s"
+	cd /home/sakulkar/workspace/gr-ofdm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sakulkar/workspace/gr-ofdm/lib/ofdm_accumulator_cc.cc -o CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.s
+
+lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o.requires:
+.PHONY : lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o.requires
+
+lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o.provides: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o.provides
+
+lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o.provides.build: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o
+
 # Object files for target gnuradio-ofdm
 gnuradio__ofdm_OBJECTS = \
 "CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o" \
 "CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o" \
-"CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o"
+"CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o" \
+"CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o"
 
 # External object files for target gnuradio-ofdm
 gnuradio__ofdm_EXTERNAL_OBJECTS =
@@ -127,6 +151,7 @@ gnuradio__ofdm_EXTERNAL_OBJECTS =
 lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o
 lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o
 lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o
+lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o
 lib/libgnuradio-ofdm.so: /usr/local/lib/libgruel.so
 lib/libgnuradio-ofdm.so: /usr/local/lib/libgnuradio-core.so
 lib/libgnuradio-ofdm.so: lib/CMakeFiles/gnuradio-ofdm.dir/build.make
@@ -141,6 +166,7 @@ lib/CMakeFiles/gnuradio-ofdm.dir/build: lib/libgnuradio-ofdm.so
 lib/CMakeFiles/gnuradio-ofdm.dir/requires: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_cube_ff.cc.o.requires
 lib/CMakeFiles/gnuradio-ofdm.dir/requires: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_power4_ff.cc.o.requires
 lib/CMakeFiles/gnuradio-ofdm.dir/requires: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_new_ff.cc.o.requires
+lib/CMakeFiles/gnuradio-ofdm.dir/requires: lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o.requires
 .PHONY : lib/CMakeFiles/gnuradio-ofdm.dir/requires
 
 lib/CMakeFiles/gnuradio-ofdm.dir/clean:

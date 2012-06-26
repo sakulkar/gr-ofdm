@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../include/gr_block_fwd.h
+
+../include/ofdm_accumulator_cc.h
+ofdm_api.h
+-
+gr_block_fwd.h
+../include/gr_block_fwd.h
+gr_block.h
+-
+
 ../include/ofdm_api.h
 gruel/attributes.h
 -
@@ -26,6 +36,16 @@ gr_block.h
 ofdm_api.h
 -
 gr_sync_block.h
+-
+
+/home/sakulkar/workspace/gr-ofdm/lib/ofdm_accumulator_cc.cc
+config.h
+/home/sakulkar/workspace/gr-ofdm/lib/config.h
+gr_sync_block.h
+-
+gr_io_signature.h
+-
+ofdm_accumulator_cc.h
 -
 
 /home/sakulkar/workspace/gr-ofdm/lib/ofdm_cube_ff.cc

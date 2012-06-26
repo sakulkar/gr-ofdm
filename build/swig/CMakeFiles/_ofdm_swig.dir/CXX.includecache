@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../include/gr_block_fwd.h
+
+../include/ofdm_accumulator_cc.h
+ofdm_api.h
+-
+gr_block_fwd.h
+../include/gr_block_fwd.h
+gr_block.h
+-
+
 ../include/ofdm_api.h
 gruel/attributes.h
 -
@@ -85,6 +95,8 @@ ofdm_power4_ff.h
 /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_power4_ff.h
 ofdm_new_ff.h
 /home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_new_ff.h
+ofdm_accumulator_cc.h
+/home/sakulkar/workspace/gr-ofdm/build/swig/ofdm_accumulator_cc.h
 limits.h
 -
 

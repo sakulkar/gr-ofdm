@@ -8,6 +8,28 @@
 
 
 
+
+
+%feature("docstring") ofdm_accumulator_cc::ofdm_accumulator_cc "
+
+Params: (NONE)"
+
+%feature("docstring") ofdm_accumulator_cc::reset "
+
+Params: (NONE)"
+
+%feature("docstring") ofdm_accumulator_cc::~ofdm_accumulator_cc "
+
+Params: (NONE)"
+
+%feature("docstring") ofdm_accumulator_cc::work "
+
+Params: (noutput_items, input_items, output_items)"
+
+%feature("docstring") ofdm_make_accumulator_cc "
+
+Params: (NONE)"
+
 %feature("docstring") ofdm_cube_ff "square a stream of floats.
 
 Return a shared_ptr to a new instance of howto_square_ff.
@@ -208,11 +230,11 @@ Params: (NONE)"
 
 %feature("docstring") std::string::iterator "STL iterator class."
 
+%feature("docstring") std::map::iterator "STL iterator class."
+
 %feature("docstring") std::wstring::iterator "STL iterator class."
 
 %feature("docstring") std::deque::iterator "STL iterator class."
-
-%feature("docstring") std::map::iterator "STL iterator class."
 
 %feature("docstring") std::length_error "STL class."
 
@@ -242,13 +264,15 @@ Params: (NONE)"
 
 %feature("docstring") std::range_error "STL class."
 
-%feature("docstring") std::vector::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::multiset::reverse_iterator "STL iterator class."
+%feature("docstring") std::deque::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::wstring::reverse_iterator "STL iterator class."
 
-%feature("docstring") std::list::reverse_iterator "STL iterator class."
+%feature("docstring") std::multimap::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::multiset::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::vector::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::string::reverse_iterator "STL iterator class."
 
@@ -256,11 +280,9 @@ Params: (NONE)"
 
 %feature("docstring") std::set::reverse_iterator "STL iterator class."
 
-%feature("docstring") std::multimap::reverse_iterator "STL iterator class."
-
 %feature("docstring") std::map::reverse_iterator "STL iterator class."
 
-%feature("docstring") std::deque::reverse_iterator "STL iterator class."
+%feature("docstring") std::list::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::runtime_error "STL class."
 

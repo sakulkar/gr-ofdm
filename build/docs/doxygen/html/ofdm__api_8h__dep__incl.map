@@ -1,5 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$ofdm__cube__ff_8h.html" title="ofdm_cube_ff.h" alt="" coords="5,86,115,117"/>
-<area shape="rect" id="node5" href="$ofdm__new__ff_8h.html" title="ofdm_new_ff.h" alt="" coords="139,86,245,117"/>
-<area shape="rect" id="node7" href="$ofdm__power4__ff_8h.html" title="ofdm_power4_ff.h" alt="" coords="269,86,395,117"/>
+<area shape="rect" id="node3" href="$ofdm__accumulator__cc_8h.html" title="ofdm_accumulator_cc.h" alt="" coords="5,86,168,117"/>
+<area shape="rect" id="node5" href="$ofdm__cube__ff_8h.html" title="ofdm_cube_ff.h" alt="" coords="192,86,301,117"/>
+<area shape="rect" id="node7" href="$ofdm__new__ff_8h.html" title="ofdm_new_ff.h" alt="" coords="325,86,432,117"/>
+<area shape="rect" id="node9" href="$ofdm__power4__ff_8h.html" title="ofdm_power4_ff.h" alt="" coords="456,86,581,117"/>
 </map>

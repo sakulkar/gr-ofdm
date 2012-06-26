@@ -11,37 +11,37 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="531">
+      <node id="534">
         <label>std::runtime_error</label>
-        <childnode refid="532" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="532">
-        <label>std::exception</label>
-      </node>
-      <node id="533">
-        <label>std::overflow_error</label>
-        <childnode refid="531" relation="public-inheritance">
+        <childnode refid="535" relation="public-inheritance">
         </childnode>
       </node>
       <node id="535">
-        <label>std::underflow_error</label>
-        <childnode refid="531" relation="public-inheritance">
+        <label>std::exception</label>
+      </node>
+      <node id="536">
+        <label>std::overflow_error</label>
+        <childnode refid="534" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="534">
+      <node id="538">
+        <label>std::underflow_error</label>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="537">
         <label>std::range_error</label>
-        <childnode refid="531" relation="public-inheritance">
+        <childnode refid="534" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="536">
+      <node id="539">
         <label>std::runtime_error</label>
-        <childnode refid="537" relation="public-inheritance">
+        <childnode refid="540" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="537">
+      <node id="540">
         <label>std::exception</label>
       </node>
     </collaborationgraph>

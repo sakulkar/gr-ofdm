@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classofdm__accumulator__cc" kind="class" prot="public">
+    <compoundname>ofdm_accumulator_cc</compoundname>
+    <includes refid="ofdm__accumulator__cc_8h" local="no">ofdm_accumulator_cc.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classofdm__accumulator__cc_1af6ea42c300821c6822d777b8bd5604af" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex ofdm_accumulator_cc::d_accum</definition>
+        <argsstring></argsstring>
+        <name>d_accum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="23" bodyfile="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classofdm__accumulator__cc_1ae9819c9eb6f5737a526388c8930a6665" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="ofdm__api_8h_1ae5b00e31ffa80275f53aa2e386ecca33" kindref="member">OFDM_API</ref> <ref refid="ofdm__accumulator__cc_8h_1a6efcb52dd8159486fcebf969c6ec250a" kindref="member">ofdm_accumulator_cc_sptr</ref></type>
+        <definition>OFDM_API ofdm_accumulator_cc_sptr ofdm_make_accumulator_cc</definition>
+        <argsstring>()</argsstring>
+        <name>ofdm_make_accumulator_cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classofdm__accumulator__cc_1a4b194a4b1e5e447740fd3a0ba63e17a1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofdm_accumulator_cc::ofdm_accumulator_cc</definition>
+        <argsstring>()</argsstring>
+        <name>ofdm_accumulator_cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classofdm__accumulator__cc_1a301c683d462c5de43cfabe5be53bf87c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofdm_accumulator_cc::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="28" bodyfile="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classofdm__accumulator__cc_1a384c0192941bcd50462cc3f22fe5e8d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofdm_accumulator_cc::~ofdm_accumulator_cc</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_accumulator_cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="30" bodyfile="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classofdm__accumulator__cc_1ab407dbe84d9eebb071e1a7e21e9118c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofdm_accumulator_cc::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" line="17" bodyfile="/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h" bodystart="16" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classofdm__accumulator__cc_1af6ea42c300821c6822d777b8bd5604af" prot="private" virt="non-virtual"><scope>ofdm_accumulator_cc</scope><name>d_accum</name></member>
+      <member refid="classofdm__accumulator__cc_1a4b194a4b1e5e447740fd3a0ba63e17a1" prot="private" virt="non-virtual"><scope>ofdm_accumulator_cc</scope><name>ofdm_accumulator_cc</name></member>
+      <member refid="classofdm__accumulator__cc_1ae9819c9eb6f5737a526388c8930a6665" prot="private" virt="non-virtual"><scope>ofdm_accumulator_cc</scope><name>ofdm_make_accumulator_cc</name></member>
+      <member refid="classofdm__accumulator__cc_1a301c683d462c5de43cfabe5be53bf87c" prot="public" virt="non-virtual"><scope>ofdm_accumulator_cc</scope><name>reset</name></member>
+      <member refid="classofdm__accumulator__cc_1ab407dbe84d9eebb071e1a7e21e9118c9" prot="public" virt="non-virtual"><scope>ofdm_accumulator_cc</scope><name>work</name></member>
+      <member refid="classofdm__accumulator__cc_1a384c0192941bcd50462cc3f22fe5e8d5" prot="public" virt="virtual"><scope>ofdm_accumulator_cc</scope><name>~ofdm_accumulator_cc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

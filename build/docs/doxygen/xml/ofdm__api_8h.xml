@@ -3,41 +3,48 @@
   <compounddef id="ofdm__api_8h" kind="file">
     <compoundname>ofdm_api.h</compoundname>
     <includes local="no">gruel/attributes.h</includes>
+    <includedby refid="ofdm__accumulator__cc_8h" local="no">ofdm_accumulator_cc.h</includedby>
     <includedby refid="ofdm__cube__ff_8h" local="no">ofdm_cube_ff.h</includedby>
     <includedby refid="ofdm__new__ff_8h" local="no">ofdm_new_ff.h</includedby>
     <includedby refid="ofdm__power4__ff_8h" local="no">ofdm_power4_ff.h</includedby>
     <incdepgraph>
-      <node id="30">
+      <node id="49">
         <label>gruel/attributes.h</label>
       </node>
-      <node id="29">
+      <node id="48">
         <label>ofdm_api.h</label>
         <link refid="ofdm_api.h"/>
-        <childnode refid="30" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="34">
+      <node id="51">
+        <label>ofdm_accumulator_cc.h</label>
+        <link refid="ofdm__accumulator__cc_8h"/>
+      </node>
+      <node id="54">
         <label>ofdm_power4_ff.h</label>
         <link refid="ofdm__power4__ff_8h"/>
       </node>
-      <node id="32">
+      <node id="52">
         <label>ofdm_cube_ff.h</label>
         <link refid="ofdm__cube__ff_8h"/>
       </node>
-      <node id="33">
+      <node id="53">
         <label>ofdm_new_ff.h</label>
         <link refid="ofdm__new__ff_8h"/>
       </node>
-      <node id="31">
+      <node id="50">
         <label>ofdm_api.h</label>
         <link refid="ofdm_api.h"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

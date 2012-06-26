@@ -38,6 +38,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/sakulkar/workspace/gr-ofdm/include/ofdm_cube_ff.h"
     "/home/sakulkar/workspace/gr-ofdm/include/ofdm_power4_ff.h"
     "/home/sakulkar/workspace/gr-ofdm/include/ofdm_new_ff.h"
+    "/home/sakulkar/workspace/gr-ofdm/include/ofdm_accumulator_cc.h"
+    "/home/sakulkar/workspace/gr-ofdm/include/gr_block_fwd.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

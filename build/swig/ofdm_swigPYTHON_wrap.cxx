@@ -2955,35 +2955,37 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_boost__shared_ptrT_gr_msg_queue_t swig_types[10]
 #define SWIGTYPE_p_boost__shared_ptrT_gr_single_threaded_scheduler_t swig_types[11]
 #define SWIGTYPE_p_boost__shared_ptrT_gr_top_block_t swig_types[12]
-#define SWIGTYPE_p_boost__shared_ptrT_ofdm_cube_ff_t swig_types[13]
-#define SWIGTYPE_p_boost__shared_ptrT_ofdm_new_ff_t swig_types[14]
-#define SWIGTYPE_p_boost__shared_ptrT_ofdm_power4_ff_t swig_types[15]
-#define SWIGTYPE_p_char swig_types[16]
-#define SWIGTYPE_p_difference_type swig_types[17]
-#define SWIGTYPE_p_gr_basic_block swig_types[18]
-#define SWIGTYPE_p_gr_block swig_types[19]
-#define SWIGTYPE_p_gr_hier_block2 swig_types[20]
-#define SWIGTYPE_p_gr_sync_block swig_types[21]
-#define SWIGTYPE_p_gr_sync_decimator swig_types[22]
-#define SWIGTYPE_p_gr_sync_interpolator swig_types[23]
-#define SWIGTYPE_p_gr_top_block swig_types[24]
-#define SWIGTYPE_p_gr_vector_const_void_star swig_types[25]
-#define SWIGTYPE_p_gr_vector_int swig_types[26]
-#define SWIGTYPE_p_gr_vector_void_star swig_types[27]
-#define SWIGTYPE_p_gruel__rt_status_t swig_types[28]
-#define SWIGTYPE_p_long_long swig_types[29]
-#define SWIGTYPE_p_ofdm_cube_ff swig_types[30]
-#define SWIGTYPE_p_ofdm_new_ff swig_types[31]
-#define SWIGTYPE_p_ofdm_power4_ff swig_types[32]
-#define SWIGTYPE_p_size_type swig_types[33]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[34]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[35]
-#define SWIGTYPE_p_std__invalid_argument swig_types[36]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[37]
-#define SWIGTYPE_p_unsigned_long_long swig_types[38]
-#define SWIGTYPE_p_value_type swig_types[39]
-static swig_type_info *swig_types[41];
-static swig_module_info swig_module = {swig_types, 40, 0, 0, 0, 0};
+#define SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t swig_types[13]
+#define SWIGTYPE_p_boost__shared_ptrT_ofdm_cube_ff_t swig_types[14]
+#define SWIGTYPE_p_boost__shared_ptrT_ofdm_new_ff_t swig_types[15]
+#define SWIGTYPE_p_boost__shared_ptrT_ofdm_power4_ff_t swig_types[16]
+#define SWIGTYPE_p_char swig_types[17]
+#define SWIGTYPE_p_difference_type swig_types[18]
+#define SWIGTYPE_p_gr_basic_block swig_types[19]
+#define SWIGTYPE_p_gr_block swig_types[20]
+#define SWIGTYPE_p_gr_hier_block2 swig_types[21]
+#define SWIGTYPE_p_gr_sync_block swig_types[22]
+#define SWIGTYPE_p_gr_sync_decimator swig_types[23]
+#define SWIGTYPE_p_gr_sync_interpolator swig_types[24]
+#define SWIGTYPE_p_gr_top_block swig_types[25]
+#define SWIGTYPE_p_gr_vector_const_void_star swig_types[26]
+#define SWIGTYPE_p_gr_vector_int swig_types[27]
+#define SWIGTYPE_p_gr_vector_void_star swig_types[28]
+#define SWIGTYPE_p_gruel__rt_status_t swig_types[29]
+#define SWIGTYPE_p_long_long swig_types[30]
+#define SWIGTYPE_p_ofdm_accumulator_cc swig_types[31]
+#define SWIGTYPE_p_ofdm_cube_ff swig_types[32]
+#define SWIGTYPE_p_ofdm_new_ff swig_types[33]
+#define SWIGTYPE_p_ofdm_power4_ff swig_types[34]
+#define SWIGTYPE_p_size_type swig_types[35]
+#define SWIGTYPE_p_std__complexT_double_t swig_types[36]
+#define SWIGTYPE_p_std__complexT_float_t swig_types[37]
+#define SWIGTYPE_p_std__invalid_argument swig_types[38]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[39]
+#define SWIGTYPE_p_unsigned_long_long swig_types[40]
+#define SWIGTYPE_p_value_type swig_types[41]
+static swig_type_info *swig_types[43];
+static swig_module_info swig_module = {swig_types, 42, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4372,6 +4374,7 @@ namespace swig
 #include "ofdm_cube_ff.h"
 #include "ofdm_power4_ff.h"
 #include "ofdm_new_ff.h"
+#include "ofdm_accumulator_cc.h"
 
 
 #include <limits.h>
@@ -7881,6 +7884,849 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_new_ofdm_accumulator_cc_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *result = 0 ;
+  
+  {
+    try {
+      result = (boost::shared_ptr< ofdm_accumulator_cc > *)new boost::shared_ptr< ofdm_accumulator_cc >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ofdm_accumulator_cc_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ofdm_accumulator_cc *arg1 = (ofdm_accumulator_cc *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< ofdm_accumulator_cc > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_ofdm_accumulator_cc_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ofdm_accumulator_cc, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_ofdm_accumulator_cc_sptr" "', argument " "1"" of type '" "ofdm_accumulator_cc *""'"); 
+  }
+  arg1 = reinterpret_cast< ofdm_accumulator_cc * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< ofdm_accumulator_cc > *)new boost::shared_ptr< ofdm_accumulator_cc >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ofdm_accumulator_cc_sptr(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[2];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_ofdm_accumulator_cc_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_ofdm_accumulator_cc, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_ofdm_accumulator_cc_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_ofdm_accumulator_cc_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< ofdm_accumulator_cc >::shared_ptr()\n"
+    "    boost::shared_ptr< ofdm_accumulator_cc >::shared_ptr(ofdm_accumulator_cc *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  ofdm_accumulator_cc *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (ofdm_accumulator_cc *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ofdm_accumulator_cc, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_ofdm_accumulator_cc_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_ofdm_accumulator_cc_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ofdm_accumulator_cc_sptr" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_reset",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_reset" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      (*arg1)->reset();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_work(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  int arg2 ;
+  gr_vector_const_void_star *arg3 = 0 ;
+  gr_vector_void_star *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "noutput_items",(char *) "input_items",(char *) "output_items", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:ofdm_accumulator_cc_sptr_work",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_work" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ofdm_accumulator_cc_sptr_work" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_gr_vector_const_void_star,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ofdm_accumulator_cc_sptr_work" "', argument " "3"" of type '" "gr_vector_const_void_star &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_accumulator_cc_sptr_work" "', argument " "3"" of type '" "gr_vector_const_void_star &""'"); 
+  }
+  arg3 = reinterpret_cast< gr_vector_const_void_star * >(argp3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_gr_vector_void_star,  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "ofdm_accumulator_cc_sptr_work" "', argument " "4"" of type '" "gr_vector_void_star &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_accumulator_cc_sptr_work" "', argument " "4"" of type '" "gr_vector_void_star &""'"); 
+  }
+  arg4 = reinterpret_cast< gr_vector_void_star * >(argp4);
+  {
+    try {
+      result = (int)(*arg1)->work(arg2,*arg3,*arg4);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:ofdm_accumulator_cc_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ofdm_accumulator_cc_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:ofdm_accumulator_cc_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ofdm_accumulator_cc_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr_block_detail_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_detail",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_detail" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->detail();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr_block_detail_sptr(static_cast< const gr_block_detail_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr_block_detail_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_set_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  gr_block_detail_sptr arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "detail", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:ofdm_accumulator_cc_sptr_set_detail",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_set_detail" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__shared_ptrT_gr_block_detail_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ofdm_accumulator_cc_sptr_set_detail" "', argument " "2"" of type '" "gr_block_detail_sptr""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_accumulator_cc_sptr_set_detail" "', argument " "2"" of type '" "gr_block_detail_sptr""'");
+    } else {
+      gr_block_detail_sptr * temp = reinterpret_cast< gr_block_detail_sptr * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->set_detail(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr_io_signature_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr_io_signature_sptr(static_cast< const gr_io_signature_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr_io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr_io_signature_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr_io_signature_sptr(static_cast< const gr_io_signature_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr_io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr_basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ofdm_accumulator_cc_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr_basic_block_sptr(static_cast< const gr_basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr_basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ofdm_accumulator_cc_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ofdm_accumulator_cc > *arg1 = (boost::shared_ptr< ofdm_accumulator_cc > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:ofdm_accumulator_cc_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_accumulator_cc_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< ofdm_accumulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ofdm_accumulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ofdm_accumulator_cc_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ofdm_accumulator_cc_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *ofdm_accumulator_cc_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_accumulator_cc(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ofdm_accumulator_cc_sptr result;
+  
+  {
+    try {
+      result = ofdm_make_accumulator_cc();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new ofdm_accumulator_cc_sptr(static_cast< const ofdm_accumulator_cc_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_ofdm_accumulator_cc_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_VARARGS, (char *)"delete_SwigPyIterator(SwigPyIterator self)"},
@@ -8025,6 +8871,44 @@ static PyMethodDef SwigMethods[] = {
 		"\n"
 		"Params: (NONE)\n"
 		""},
+	 { (char *)"new_ofdm_accumulator_cc_sptr", _wrap_new_ofdm_accumulator_cc_sptr, METH_VARARGS, (char *)"\n"
+		"ofdm_accumulator_cc_sptr()\n"
+		"new_ofdm_accumulator_cc_sptr( p) -> ofdm_accumulator_cc_sptr\n"
+		""},
+	 { (char *)"ofdm_accumulator_cc_sptr___deref__", _wrap_ofdm_accumulator_cc_sptr___deref__, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr___deref__(ofdm_accumulator_cc_sptr self)"},
+	 { (char *)"delete_ofdm_accumulator_cc_sptr", _wrap_delete_ofdm_accumulator_cc_sptr, METH_VARARGS, (char *)"delete_ofdm_accumulator_cc_sptr(ofdm_accumulator_cc_sptr self)"},
+	 { (char *)"ofdm_accumulator_cc_sptr_reset", _wrap_ofdm_accumulator_cc_sptr_reset, METH_VARARGS, (char *)"\n"
+		"ofdm_accumulator_cc_sptr_reset(ofdm_accumulator_cc_sptr self)\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
+	 { (char *)"ofdm_accumulator_cc_sptr_work", (PyCFunction) _wrap_ofdm_accumulator_cc_sptr_work, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"ofdm_accumulator_cc_sptr_work(ofdm_accumulator_cc_sptr self, int noutput_items, gr_vector_const_void_star input_items, \n"
+		"    gr_vector_void_star output_items) -> int\n"
+		"\n"
+		"Params: (noutput_items, input_items, output_items)\n"
+		""},
+	 { (char *)"ofdm_accumulator_cc_sptr_history", _wrap_ofdm_accumulator_cc_sptr_history, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_history(ofdm_accumulator_cc_sptr self) -> unsigned int"},
+	 { (char *)"ofdm_accumulator_cc_sptr_output_multiple", _wrap_ofdm_accumulator_cc_sptr_output_multiple, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_output_multiple(ofdm_accumulator_cc_sptr self) -> int"},
+	 { (char *)"ofdm_accumulator_cc_sptr_relative_rate", _wrap_ofdm_accumulator_cc_sptr_relative_rate, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_relative_rate(ofdm_accumulator_cc_sptr self) -> double"},
+	 { (char *)"ofdm_accumulator_cc_sptr_start", _wrap_ofdm_accumulator_cc_sptr_start, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_start(ofdm_accumulator_cc_sptr self) -> bool"},
+	 { (char *)"ofdm_accumulator_cc_sptr_stop", _wrap_ofdm_accumulator_cc_sptr_stop, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_stop(ofdm_accumulator_cc_sptr self) -> bool"},
+	 { (char *)"ofdm_accumulator_cc_sptr_nitems_read", (PyCFunction) _wrap_ofdm_accumulator_cc_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"ofdm_accumulator_cc_sptr_nitems_read(ofdm_accumulator_cc_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"ofdm_accumulator_cc_sptr_nitems_written", (PyCFunction) _wrap_ofdm_accumulator_cc_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"ofdm_accumulator_cc_sptr_nitems_written(ofdm_accumulator_cc_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ofdm_accumulator_cc_sptr_detail", _wrap_ofdm_accumulator_cc_sptr_detail, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_detail(ofdm_accumulator_cc_sptr self) -> gr_block_detail_sptr"},
+	 { (char *)"ofdm_accumulator_cc_sptr_set_detail", (PyCFunction) _wrap_ofdm_accumulator_cc_sptr_set_detail, METH_VARARGS | METH_KEYWORDS, (char *)"ofdm_accumulator_cc_sptr_set_detail(ofdm_accumulator_cc_sptr self, gr_block_detail_sptr detail)"},
+	 { (char *)"ofdm_accumulator_cc_sptr_name", _wrap_ofdm_accumulator_cc_sptr_name, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_name(ofdm_accumulator_cc_sptr self) -> string"},
+	 { (char *)"ofdm_accumulator_cc_sptr_input_signature", _wrap_ofdm_accumulator_cc_sptr_input_signature, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_input_signature(ofdm_accumulator_cc_sptr self) -> gr_io_signature_sptr"},
+	 { (char *)"ofdm_accumulator_cc_sptr_output_signature", _wrap_ofdm_accumulator_cc_sptr_output_signature, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_output_signature(ofdm_accumulator_cc_sptr self) -> gr_io_signature_sptr"},
+	 { (char *)"ofdm_accumulator_cc_sptr_unique_id", _wrap_ofdm_accumulator_cc_sptr_unique_id, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_unique_id(ofdm_accumulator_cc_sptr self) -> long"},
+	 { (char *)"ofdm_accumulator_cc_sptr_to_basic_block", _wrap_ofdm_accumulator_cc_sptr_to_basic_block, METH_VARARGS, (char *)"ofdm_accumulator_cc_sptr_to_basic_block(ofdm_accumulator_cc_sptr self) -> gr_basic_block_sptr"},
+	 { (char *)"ofdm_accumulator_cc_sptr_check_topology", (PyCFunction) _wrap_ofdm_accumulator_cc_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"ofdm_accumulator_cc_sptr_check_topology(ofdm_accumulator_cc_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"ofdm_accumulator_cc_sptr_swigregister", ofdm_accumulator_cc_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"accumulator_cc", _wrap_accumulator_cc, METH_VARARGS, (char *)"\n"
+		"accumulator_cc() -> ofdm_accumulator_cc_sptr\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -8033,6 +8917,9 @@ static PyMethodDef SwigMethods[] = {
 
 static void *_p_ofdm_power4_ffTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_basic_block *) (gr_block *)(gr_sync_block *) ((ofdm_power4_ff *) x));
+}
+static void *_p_ofdm_accumulator_ccTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_basic_block *) (gr_block *)(gr_sync_block *) ((ofdm_accumulator_cc *) x));
 }
 static void *_p_ofdm_cube_ffTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_basic_block *) (gr_block *) ((ofdm_cube_ff *) x));
@@ -8061,6 +8948,9 @@ static void *_p_gr_top_blockTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(new
 static void *_p_ofdm_power4_ffTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_sync_block *)  ((ofdm_power4_ff *) x));
 }
+static void *_p_ofdm_accumulator_ccTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_sync_block *)  ((ofdm_accumulator_cc *) x));
+}
 static void *_p_gr_sync_decimatorTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_sync_block *)  ((gr_sync_decimator *) x));
 }
@@ -8069,6 +8959,9 @@ static void *_p_gr_sync_interpolatorTo_p_gr_sync_block(void *x, int *SWIGUNUSEDP
 }
 static void *_p_ofdm_power4_ffTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *) (gr_sync_block *) ((ofdm_power4_ff *) x));
+}
+static void *_p_ofdm_accumulator_ccTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_block *) (gr_sync_block *) ((ofdm_accumulator_cc *) x));
 }
 static void *_p_ofdm_cube_ffTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *)  ((ofdm_cube_ff *) x));
@@ -8098,6 +8991,7 @@ static swig_type_info _swigt__p_boost__shared_ptrT_gr_message_t = {"_p_boost__sh
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_msg_queue_t = {"_p_boost__shared_ptrT_gr_msg_queue_t", "boost::shared_ptr< gr_msg_queue > *|gr_msg_queue_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_single_threaded_scheduler_t = {"_p_boost__shared_ptrT_gr_single_threaded_scheduler_t", "boost::shared_ptr< gr_single_threaded_scheduler > *|gr_single_threaded_scheduler_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_top_block_t = {"_p_boost__shared_ptrT_gr_top_block_t", "boost::shared_ptr< gr_top_block > *|gr_top_block_sptr *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_ofdm_accumulator_cc_t = {"_p_boost__shared_ptrT_ofdm_accumulator_cc_t", "boost::shared_ptr< ofdm_accumulator_cc > *|ofdm_accumulator_cc_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_ofdm_cube_ff_t = {"_p_boost__shared_ptrT_ofdm_cube_ff_t", "boost::shared_ptr< ofdm_cube_ff > *|ofdm_cube_ff_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_ofdm_new_ff_t = {"_p_boost__shared_ptrT_ofdm_new_ff_t", "boost::shared_ptr< ofdm_new_ff > *|ofdm_new_ff_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_ofdm_power4_ff_t = {"_p_boost__shared_ptrT_ofdm_power4_ff_t", "boost::shared_ptr< ofdm_power4_ff > *|ofdm_power4_ff_sptr *", 0, 0, (void*)0, 0};
@@ -8115,6 +9009,7 @@ static swig_type_info _swigt__p_gr_vector_int = {"_p_gr_vector_int", "gr_vector_
 static swig_type_info _swigt__p_gr_vector_void_star = {"_p_gr_vector_void_star", "gr_vector_void_star *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gruel__rt_status_t = {"_p_gruel__rt_status_t", "enum gruel::rt_status_t *|gruel::rt_status_t *|gr_rt_status_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long_long = {"_p_long_long", "int64_t *|long long *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_ofdm_accumulator_cc = {"_p_ofdm_accumulator_cc", "ofdm_accumulator_cc *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ofdm_cube_ff = {"_p_ofdm_cube_ff", "ofdm_cube_ff *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ofdm_new_ff = {"_p_ofdm_new_ff", "ofdm_new_ff *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ofdm_power4_ff = {"_p_ofdm_power4_ff", "ofdm_power4_ff *", 0, 0, (void*)0, 0};
@@ -8140,6 +9035,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_boost__shared_ptrT_gr_msg_queue_t,
   &_swigt__p_boost__shared_ptrT_gr_single_threaded_scheduler_t,
   &_swigt__p_boost__shared_ptrT_gr_top_block_t,
+  &_swigt__p_boost__shared_ptrT_ofdm_accumulator_cc_t,
   &_swigt__p_boost__shared_ptrT_ofdm_cube_ff_t,
   &_swigt__p_boost__shared_ptrT_ofdm_new_ff_t,
   &_swigt__p_boost__shared_ptrT_ofdm_power4_ff_t,
@@ -8157,6 +9053,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_gr_vector_void_star,
   &_swigt__p_gruel__rt_status_t,
   &_swigt__p_long_long,
+  &_swigt__p_ofdm_accumulator_cc,
   &_swigt__p_ofdm_cube_ff,
   &_swigt__p_ofdm_new_ff,
   &_swigt__p_ofdm_power4_ff,
@@ -8182,6 +9079,7 @@ static swig_cast_info _swigc__p_boost__shared_ptrT_gr_message_t[] = {  {&_swigt_
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_msg_queue_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_msg_queue_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_single_threaded_scheduler_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_single_threaded_scheduler_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_top_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_top_block_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_ofdm_accumulator_cc_t[] = {  {&_swigt__p_boost__shared_ptrT_ofdm_accumulator_cc_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_ofdm_cube_ff_t[] = {  {&_swigt__p_boost__shared_ptrT_ofdm_cube_ff_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_ofdm_new_ff_t[] = {  {&_swigt__p_boost__shared_ptrT_ofdm_new_ff_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_ofdm_power4_ff_t[] = {  {&_swigt__p_boost__shared_ptrT_ofdm_power4_ff_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -8191,14 +9089,15 @@ static swig_cast_info _swigc__p_gr_sync_decimator[] = {{&_swigt__p_gr_sync_decim
 static swig_cast_info _swigc__p_gr_hier_block2[] = {{&_swigt__p_gr_hier_block2, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_sync_interpolator[] = {{&_swigt__p_gr_sync_interpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_top_block[] = {{&_swigt__p_gr_top_block, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_basic_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_ofdm_cube_ff, _p_ofdm_cube_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_basic_block, 0, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_ofdm_new_ff, _p_ofdm_new_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_top_block, _p_gr_top_blockTo_p_gr_basic_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_block, 0, 0},  {&_swigt__p_ofdm_cube_ff, _p_ofdm_cube_ffTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_block, 0, 0},  {&_swigt__p_ofdm_new_ff, _p_ofdm_new_ffTo_p_gr_block, 0, 0},  {&_swigt__p_gr_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_sync_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_sync_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_basic_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_ofdm_accumulator_cc, _p_ofdm_accumulator_ccTo_p_gr_basic_block, 0, 0},  {&_swigt__p_ofdm_cube_ff, _p_ofdm_cube_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_basic_block, 0, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_ofdm_new_ff, _p_ofdm_new_ffTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_top_block, _p_gr_top_blockTo_p_gr_basic_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_block, 0, 0},  {&_swigt__p_ofdm_accumulator_cc, _p_ofdm_accumulator_ccTo_p_gr_block, 0, 0},  {&_swigt__p_ofdm_cube_ff, _p_ofdm_cube_ffTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_block, 0, 0},  {&_swigt__p_ofdm_new_ff, _p_ofdm_new_ffTo_p_gr_block, 0, 0},  {&_swigt__p_gr_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_sync_block[] = {  {&_swigt__p_ofdm_power4_ff, _p_ofdm_power4_ffTo_p_gr_sync_block, 0, 0},  {&_swigt__p_ofdm_accumulator_cc, _p_ofdm_accumulator_ccTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_sync_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_vector_const_void_star[] = {  {&_swigt__p_gr_vector_const_void_star, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_vector_int[] = {  {&_swigt__p_gr_vector_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_vector_void_star[] = {  {&_swigt__p_gr_vector_void_star, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gruel__rt_status_t[] = {  {&_swigt__p_gruel__rt_status_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_ofdm_accumulator_cc[] = {  {&_swigt__p_ofdm_accumulator_cc, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ofdm_cube_ff[] = {  {&_swigt__p_ofdm_cube_ff, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ofdm_new_ff[] = {  {&_swigt__p_ofdm_new_ff, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ofdm_power4_ff[] = {  {&_swigt__p_ofdm_power4_ff, 0, 0, 0},{0, 0, 0, 0}};
@@ -8224,6 +9123,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_boost__shared_ptrT_gr_msg_queue_t,
   _swigc__p_boost__shared_ptrT_gr_single_threaded_scheduler_t,
   _swigc__p_boost__shared_ptrT_gr_top_block_t,
+  _swigc__p_boost__shared_ptrT_ofdm_accumulator_cc_t,
   _swigc__p_boost__shared_ptrT_ofdm_cube_ff_t,
   _swigc__p_boost__shared_ptrT_ofdm_new_ff_t,
   _swigc__p_boost__shared_ptrT_ofdm_power4_ff_t,
@@ -8241,6 +9141,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_gr_vector_void_star,
   _swigc__p_gruel__rt_status_t,
   _swigc__p_long_long,
+  _swigc__p_ofdm_accumulator_cc,
   _swigc__p_ofdm_cube_ff,
   _swigc__p_ofdm_new_ff,
   _swigc__p_ofdm_power4_ff,

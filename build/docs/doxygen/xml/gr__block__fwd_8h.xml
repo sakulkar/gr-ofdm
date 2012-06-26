@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__block__fwd_8h" kind="file">
+    <compoundname>gr_block_fwd.h</compoundname>
+    <includedby refid="ofdm__accumulator__cc_8h" local="yes">ofdm_accumulator_cc.h</includedby>
+    <invincdepgraph>
+      <node id="37">
+        <label>ofdm_accumulator_cc.h</label>
+        <link refid="ofdm__accumulator__cc_8h"/>
+      </node>
+      <node id="36">
+        <label>gr_block_fwd.h</label>
+        <link refid="gr_block_fwd.h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sakulkar/workspace/gr-ofdm/include/gr_block_fwd.h"/>
+  </compounddef>
+</doxygen>

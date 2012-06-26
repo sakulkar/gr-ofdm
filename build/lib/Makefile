@@ -202,6 +202,30 @@ qa_ofdm_power4_ff/fast:
 	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/qa_ofdm_power4_ff.dir/build.make lib/CMakeFiles/qa_ofdm_power4_ff.dir/build
 .PHONY : qa_ofdm_power4_ff/fast
 
+ofdm_accumulator_cc.o: ofdm_accumulator_cc.cc.o
+.PHONY : ofdm_accumulator_cc.o
+
+# target to build an object file
+ofdm_accumulator_cc.cc.o:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.o
+.PHONY : ofdm_accumulator_cc.cc.o
+
+ofdm_accumulator_cc.i: ofdm_accumulator_cc.cc.i
+.PHONY : ofdm_accumulator_cc.i
+
+# target to preprocess a source file
+ofdm_accumulator_cc.cc.i:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.i
+.PHONY : ofdm_accumulator_cc.cc.i
+
+ofdm_accumulator_cc.s: ofdm_accumulator_cc.cc.s
+.PHONY : ofdm_accumulator_cc.s
+
+# target to generate assembly for a file
+ofdm_accumulator_cc.cc.s:
+	cd /home/sakulkar/workspace/gr-ofdm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm.dir/build.make lib/CMakeFiles/gnuradio-ofdm.dir/ofdm_accumulator_cc.cc.s
+.PHONY : ofdm_accumulator_cc.cc.s
+
 ofdm_cube_ff.o: ofdm_cube_ff.cc.o
 .PHONY : ofdm_cube_ff.o
 
@@ -363,6 +387,9 @@ help:
 	@echo "... qa_ofdm_power4_ff"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ofdm_accumulator_cc.o"
+	@echo "... ofdm_accumulator_cc.i"
+	@echo "... ofdm_accumulator_cc.s"
 	@echo "... ofdm_cube_ff.o"
 	@echo "... ofdm_cube_ff.i"
 	@echo "... ofdm_cube_ff.s"
