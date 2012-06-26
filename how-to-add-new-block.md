@@ -4,7 +4,7 @@
 
 2) Add the .h file to the includes directory and .cc file to the lib directory. You then have to edit the CMakefile.txt files in those folders and add the names of these files in the CMakefile.txt.
 
-3) You should also make a qa_gr-newblock_xx.h file and put it in lib directory. For each qa file you have to edit the CMakefile.txt in lib and 3 lines specifying the qa file.
+3) You should also make a qa_gr-newblock_xx.cc file and put it in lib directory. For each qa file you have to edit the CMakefile.txt in lib and 3 lines specifying the qa file.
 
 4) Now, you can make these blocks available to python. So you should ask swig to do it. Edit the ofdm_swig.i file in swig folder and add config for the new header file. No changes in CMakefile.txt needed in that folder.
 
